@@ -21,7 +21,7 @@ body {
     left: 30%;
     display: flex;
     flex-direction: row-reverse;   
-    animation-name: walkHobbit;
+    animation-name: journeyHobbit;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
@@ -30,11 +30,14 @@ body {
 
 .walking-hobbit {
     height: 90px;
+    animation-name: walkHobbit;
+    animation-duration: 600ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
  
 }
 
-@keyframes walkHobbit {
-
+@keyframes journeyHobbit {
     0% {
         left: 30%;
     }
@@ -52,3 +55,11 @@ body {
     
 }
 
+@keyframes walkHobbit {
+    from {
+        transform: skewX(10deg);
+    }
+    to {
+        transform: skewY(10deg);
+    }
+}
