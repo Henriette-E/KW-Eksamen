@@ -17,10 +17,19 @@ body {
 
 .intro-hobbit {
     position: absolute;
+    top: 50%;
+    left: 30%;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .walking-hobbit {
-    height: 100px;
+    height: 90px;
 }
 
+#aragorn {
+    height: 160px;
+    position: relative;
+    left: 170%;
+}
 
