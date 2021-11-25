@@ -6,14 +6,21 @@ body {
 
 .intro-bg {
     width: 100%;
-    z-index: -1;
+    height: 100%;
+    position: absolute;
 }
 
-.intro-hobbits {
+.intro-bg img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.intro-hobbit {
+    position: absolute;
+}
+
+.walking-hobbit {
     height: 100px;
-    z-index: 1;
 }
 
-#frodo-1 {
 
-}
