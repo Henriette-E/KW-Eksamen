@@ -4,6 +4,8 @@ body {
     overflow: hidden;
 }
 
+/* Intro */
+
 .intro-bg {
     width: 100%;
     height: 100%;
@@ -22,7 +24,7 @@ body {
     display: flex;
     flex-direction: row-reverse;   
     animation-name: journeyHobbit;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 1s;
@@ -31,35 +33,35 @@ body {
 .walking-hobbit {
     height: 90px;
     animation-name: walkHobbit;
-    animation-duration: 600ms;
+    animation-duration: 0.6s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
- 
 }
 
+.intro-scene {
+    animation-name: fadeOut;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* Intro animasjoner */
+
 @keyframes journeyHobbit {
-    0% {
-        left: 30%;
-    }
-    25% {
-        left: 40%;
-        top: 40%
-    }
-    50% {
-        left: 55%;
-    }
-    100% {
-        left: 60%;
-        top: 60%;
-    }
-    
+    0% {left: 30%;}
+    25% {left: 40%; top: 40%}
+    50% {left: 55%;}
+    100% {left: 60%; top: 60%;}
 }
 
 @keyframes walkHobbit {
-    from {
-        transform: skewX(10deg);
-    }
-    to {
-        transform: skewY(10deg);
-    }
+    from {transform: skewX(10deg);}
+    to {transform: skewY(10deg);}
+}
+
+@keyframes fadeOut {
+    0% {display: block; opacity: 1;}
+    75% {display: block; opacity: 1;}
+    100% {display: none; opacity: 0;}
 }
