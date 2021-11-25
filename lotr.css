@@ -1,9 +1,19 @@
+
 body {
-    
+    margin: 0;
+    overflow: hidden;
 }
 
-.intro-background {
-    background-image: url(/Images/lotr-map.jpeg);
-    height: 100%;
+.intro-bg {
     width: 100%;
+    z-index: -1;
+}
+
+.intro-hobbits {
+    height: 100px;
+    z-index: 1;
+}
+
+#frodo-1 {
+
 }
