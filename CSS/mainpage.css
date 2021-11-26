@@ -3,7 +3,6 @@ body {
     background-color: gray;
     background-size: cover;
     min-height: 100vh;  
-    background-image:url(testIMG.png)
     }
     
 .wrapper {
