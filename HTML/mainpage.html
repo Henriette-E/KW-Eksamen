@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag testing</title>
+    <style>
+
+        body {
+        position: relative;
+        background-color: gray;
+        background-size: cover;
+        min-height: 100vh;  
+        background-image:url(testIMG.png)
+        }
+        
+        .wrapper {
+            position: absolute;
+        }
+
+        .fullLego {
+        position: absolute;
+        color: rgba(#000,.8);
+        right: 0;
+        transform: translateX(50%);
+        }
+
+        .wrapper:focus{
+            z-index: 999;
+            border: red 5px solid;
+        }
+
+        textarea {
+            opacity: 0;
+            width: 500px;
+        }
+
+        .noteHeader {
+            position: absolute;
+            pointer-events: none;
+            width: 20px;
+            margin-left: 90px;
+            margin-right: 97px;
+            margin-bottom: 7px;
+            border-radius: 50%;
+            height: 20px;
+            background-color: green;
+            right: 0;
+            transform: translate(100px, -20px);
+        }
+
+        .lego-brick {
+            width: 15vw;
+            height: 6vh;
+            background-color: red;
+        }
+
+        .lego-dots {
+            display: flex;
+            /* Same width as lego brick */
+            width: 15vw;
+            justify-content: space-evenly;
+        }
+
+        .lego-dot {
+            width: 2vw;
+            height: 1.6vh;
+            background-color: red;
+        }
+
+        .legoHider {
+            position: absolute;
+            top: 60vh;
+            left: 15vw;
+            background-color: lightblue;
+            width: 70vw;
+            height: 15vh;
+            z-index: 1000;
+        }
+
+        .linkText {
+            position: absolute;
+            color: white;
+            top: 32vh;
+            left: 12vw;
+            font-size: xx-large;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="legoHider"></div>
+    <div class="wrapper" tabindex="1">
+        <textarea style="height: 58.95vh; width: 25vw;"></textarea>
+        <div class="noteHeader"></div>
+        <div class="fullLego">
+            <div class="lego-dots">
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+            </div>
+            <div class="lego-brick"></div>
+        </div>
+    </div>
+    <div class="wrapper" tabindex="2">
+        <textarea style="height: 58.95vh; width: 45vw;"></textarea>
+        <div class="noteHeader"></div>
+        <div class="fullLego">
+            <div class="lego-dots">
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+            </div>
+            <div class="lego-brick"></div>
+        </div>  
+    </div>
+    <div class="linkText">HARRY POTTER</div>
+</body>
+</html>
