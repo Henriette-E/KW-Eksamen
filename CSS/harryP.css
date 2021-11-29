@@ -65,12 +65,13 @@ body{
 }
 
 
-/*Animations */
+/*ANIMATIONS */
 .owl {
     position: fixed;
     top: 25%;
     left: 0;
-    animation: fly linear 8s infinite;
+    animation: fly linear 8s;
+    animation-delay: 2s;
 }
 
 .harryBroom {
@@ -119,22 +120,48 @@ body{
 
 /*Keyframes*/
 
+/*
 @keyframes fly {
     0%{
-        transform: translateX(0);
+        left: 0;
+    }
+
+    50%{
+        left: 50%;
+        top: 0;
+        transform: translate(50%, 90%);
     }
 
     100%{
-        transform: translateX(100vw);
+        transform: translate(0,0)
     }
 
-}
+} */
 
 @keyframes broomFly {
-    100%{
-        transform: translateX(-100vw);
+        0% {
+            top: 70%; 
+            right: 0%;
+        }
+
+
+        50%{
+            right: 90%;
+            top: 0%;
+            transform: scaleX(-1);
+           
+        }
+    
+        95%{
+            transform: scaleX(-1);
+        }
+    
+        100% {
+            top:70%;
+            right: 0;        
+        }
     }
-}
+
 
 
 
