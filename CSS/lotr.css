@@ -1,8 +1,11 @@
+html {
+    cursor: url(/Images/lotr/leaf-of-lorien.png), auto;
+}
 
 body {
     margin: 0;
     overflow: hidden;
-    background-image: url(/Images/lotr/Weathertop03.png);
+    background-image: url(/Images/lotr/weathertop.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,6 +83,6 @@ body {
 }
 
 .nazgul {
-    position: ;
+    position: absolute;
 
 }
