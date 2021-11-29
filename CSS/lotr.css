@@ -71,3 +71,15 @@ body {
 
 /* Weathertop */
 
+#fire {
+    position: absolute;
+    height: 100px;
+    top: 56%;
+    left: 64%;
+    z-index: -2;
+}
+
+.nazgul {
+    position: ;
+
+}
