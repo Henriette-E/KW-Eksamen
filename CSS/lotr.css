@@ -44,7 +44,6 @@ body {
 }
 
 .intro-scene {
-    display: none;
     animation-name: fadeOut;
     animation-duration: 7s;
     animation-iteration-count: 1;
