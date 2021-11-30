@@ -1,6 +1,4 @@
-html {
-    cursor: url(/Images/lotr/leaf-of-lorien.png), auto;
-}
+
 
 body {
     margin: 0;
@@ -8,6 +6,7 @@ body {
     background-image: url(/Images/lotr/weathertop.png);
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: url(/Images/lotr/sting-cursor.png), default;
 }
 
 /* Intro */
@@ -74,7 +73,7 @@ body {
 
 /* Weathertop */
 
-#fire {
+#campfire {
     position: absolute;
     height: 100px;
     top: 56%;
@@ -82,3 +81,77 @@ body {
     z-index: -2;
 }
 
+.nazgul {
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+}
+
+#nazgul-1 {
+    position: relative;
+    bottom: 5vh;
+    transform: skewY(5deg);
+}
+
+#nazgul-2 {
+    position: relative;
+    right: 5vh;
+    top: 2vh;
+    height: 315px;
+    transform: skewY(10deg);
+}
+
+#nazgul-3 {
+    position: relative;
+    top: 9vh;
+    right: 7vh;
+    height: 320px;
+    transform: skewX(10deg);
+}
+
+.fighters {
+    position: absolute;
+    z-index: -2;
+    top: 60%;
+    left: 35%;
+}
+
+#aragorn {
+    transform: skewY(15deg);
+    height: 350px;
+}
+
+#frodo {
+    position: relative;
+    left: 10vh;
+    top: 2vh;
+    height: 200px;
+    transform: skewY(5deg);
+}
+
+.bbq-hobbits {
+    position: absolute;
+    z-index: -3;
+    top: 40%;
+    left: 55%;
+}
+
+#sam {
+    position: relative;
+    top: 25vh;
+    right: 1vh;
+}
+
+#merry {
+    position: relative;
+    bottom: 2vh;
+    left: 2vh;
+    height: 180px;
+}
+
+#pippin {
+    position: relative;
+    top: 3vh;
+    height: 190px;
+
+}
