@@ -23,7 +23,7 @@ body{
     left: 30%;
 }
 
-/*Links/button*/
+/*LINKS/Button*/
 .links {
     padding: 20px;
     width: 400px;
@@ -57,14 +57,6 @@ body{
 
 }
 
-
-.ron {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-
 /*ANIMATIONS */
 .owl {
     position: fixed;
@@ -95,6 +87,19 @@ body{
     visibility: hidden;
 }
 
+.ron:hover + .spell{
+    visibility: visible;
+    transform: translateX(16vw);
+}
+
+
+/* Characters */
+.ron {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
 .deatheater {
     position: fixed;
     bottom: 0;
@@ -109,11 +114,41 @@ body{
     height: 250px;
 }
 
+.hermonie-funfact {
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    bottom: 35%;
+    right: 25%;
+    color: black;
+    background-color: #fff;
+    visibility: hidden;
+}
 
-
-.ron:hover + .spell{
+.hermonie:hover + .hermonie-funfact{
     visibility: visible;
-    transform: translateX(16vw);
+}
+
+.albus {
+    height: 250px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.albus-funfact{
+    color: black;
+    background-color: white;
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    left: 35%;
+    top: 38%;
+    visibility: hidden;
+}
+
+.albus:hover + .albus-funfact{
+    visibility: visible;
 }
 
 
@@ -151,16 +186,20 @@ body{
             transform: scaleX(-1);
            
         }
-    
-        95%{
-            transform: scaleX(-1);
-        }
+
+
+    95%{
+        transform: scaleX(-1);  
+    }
+       
     
         100% {
             top:70%;
-            right: 0;        
+            right: 0;    
+              
         }
     }
+    
 
 
 

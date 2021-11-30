@@ -6,6 +6,7 @@ body {
     background-image: url(/Images/lotr/weathertop.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     cursor: url(/Images/lotr/sting-cursor.png), default;
 }
 
@@ -84,74 +85,64 @@ body {
 .nazgul {
     position: absolute;
     z-index: -2;
+    height: 300px;
     top: 50%;
 }
 
 #nazgul-1 {
-    position: relative;
-    bottom: 5vh;
+    position: absolute;
     transform: skewY(5deg);
 }
 
 #nazgul-2 {
-    position: relative;
-    right: 5vh;
-    top: 2vh;
-    height: 315px;
+    position: absolute;
     transform: skewY(10deg);
 }
 
 #nazgul-3 {
-    position: relative;
-    top: 9vh;
-    right: 7vh;
-    height: 320px;
+    position: absolute;
     transform: skewX(10deg);
 }
 
-.fighters {
+#aragorn {
     position: absolute;
-    z-index: -2;
-    top: 60%;
+    transform: skewY(15deg);
+    height: 350px;
+    bottom: 13%;
     left: 35%;
 }
 
-#aragorn {
-    transform: skewY(15deg);
-    height: 350px;
+.hobbit {
+    position: absolute;
+    z-index: -3;
 }
 
 #frodo {
-    position: relative;
-    left: 10vh;
-    top: 2vh;
+    position: absolute;
     height: 200px;
-    transform: skewY(5deg);
+    right: 30%;
+    bottom: 10%;
+    z-index: 1;
 }
 
-.bbq-hobbits {
-    position: absolute;
-    z-index: -3;
-    top: 40%;
-    left: 55%;
-}
+
 
 #sam {
-    position: relative;
-    top: 25vh;
-    right: 1vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
 
 #merry {
-    position: relative;
-    bottom: 2vh;
-    left: 2vh;
-    height: 180px;
+    position: absolute;
+    height: 170px;
+    top: 33%;
+    right: 28%;
 }
 
 #pippin {
-    position: relative;
-    top: 3vh;
+    position: absolute;
     height: 190px;
-
+    top: 40%;
+    right: 15%;
 }
