@@ -16,6 +16,7 @@
             top: calc(60vh - 400px);
             background-image: url(/Images/mainpage/chestPlaceholder.png);
             transform: scale(1);
+            z-index: -10;
         }
 
         .bottom-left-line {
@@ -184,12 +185,50 @@
             left: 562px;
             transform: rotate(-10deg);
         }
+        
+        .bottom-left-panel {
+            position: absolute;
+            width: 170px;
+            border-bottom: 210px solid rgb(214, 159, 87);
+            border-left: 0px solid transparent;
+            border-right: 60px solid transparent;
+            transform: rotate(10deg) scale(-1, -1);
+            top: 434px;
+            left: 175px;
+            z-index: -5;
+        }
+        
+        .bottom-right-panel1 {
+            position: absolute;
+            width: 170px;
+            border-bottom: 250px solid rgb(214, 159, 87);
+            border-left: 0px solid transparent;
+            border-right: 25px solid transparent;
+            transform: rotate(76deg);
+            top: 410px;
+            left: 405px;
+            z-index: -5;
+        }
+
+        .bottom-right-panel2 {
+            position: absolute;
+            width: 70px;
+            border-bottom: 150px solid rgb(214, 159, 87);
+            border-left: 60px solid transparent;
+            border-right: 0px solid transparent;
+            transform: rotate(-14deg) scale(-1,-1);
+            top: 420px;
+            left: 575px;
+            z-index: -5;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="toy-box-wrapper">
 
+        <!-- These are all the gold lines on the chest -->
         <div class="bottom-left-line"></div>
         <div class="bottom-right-line"></div>
         <div class="vert-line1"></div>
@@ -203,11 +242,19 @@
         <div class="lid-vert-line1"></div>
         <div class="lid-top-line"></div>
         <div class="lid-vert-line2"></div>
+
+        <!-- The lock -->
         <div class="lock">
             <div class="gold-box"></div>
             <div class="keyhole-triangle"></div>
             <div class="keyhole-circle"></div>
         </div>
+
+        <!-- The brown/wooden panel filling -->
+        <div class="bottom-left-panel"></div>
+        <div class="bottom-right-panel1"></div>
+        <div class="bottom-right-panel2"></div>
+
 
     </div>
 
