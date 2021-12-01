@@ -13,20 +13,24 @@ body {
 /* Menu sidebar, LINEA: gjør hva du vil her */
 
 .menu-bar {
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    z-index: 5;
+    right: 0;
   }
   
-  .btn {
-      width: 100px;
-      height: auto;
-      align-self: flex-end;
-      opacity: 0.85;
-  }
+.btn {
+    width: 100px;
+    height: auto;
+    opacity: 0.85;
+}
   
-  .btn:hover {
-      opacity: 1;
-  }
+.btn:hover {
+    opacity: 1;
+}
+
+#lotr-btn {
+    visibility: hidden;
+}
   
 /* Intro */
 
