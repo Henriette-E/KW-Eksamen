@@ -115,8 +115,12 @@ body{
     top: 10%;
     left: -3%;
     transform: rotate(60deg);
-    animation: hiding 5s 3 ease-in-out;
+    animation: hiding 5s infinite ease-in-out;
 }
+
+/* knapper for å komme til en ny side */
+
+
 
 
 /* funfact */
@@ -128,8 +132,7 @@ body{
     right: 60%;
     color: black;
     background-color: #fff;
-    visibility: visible;
-    z-index: -1;
+    visibility: hidden;
 }
 
 .funfact2{                 /* Denne funfact boksen er plassert over trooper-3 */
@@ -141,7 +144,7 @@ body{
     color: black;
     background-color: #fff;
     visibility: visible;
-    z-index: -1;
+    
 }
 .funfact3{                 /* Denne funfact boksen er plassert over tusken */
     margin: 0;
@@ -152,7 +155,7 @@ body{
     color: black;
     background-color: #fff;
     visibility: visible;
-    z-index: -1;
+    
 }
 .funfact4{                 /* Denne funfact boksen er plassert over tusken */
     margin: 0;
@@ -163,10 +166,24 @@ body{
     color: black;
     background-color: #fff;
     visibility: visible;
-    z-index: -1;
 }
 
+
+
 /* Hover-animations*/
+#ray:hover + .funfact1{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
 #darth-vader:hover + #c-3po{
     visibility: visible;
 } 
