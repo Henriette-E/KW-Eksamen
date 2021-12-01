@@ -1,6 +1,6 @@
 /* Main page */
 html{
-    cursor: url(/images/star-wars/red_Lightsaber.png),auto;
+    cursor: url(/images/star-wars/red_Lightsaber-min.png),auto;
 }
 body{
     margin: 0;
@@ -22,23 +22,25 @@ body{
 }
 .intro-scene{
     animation-name: fadeout;
-    animation-duration: 10s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
+    
 }
 
 /* Figures */
 
 #trooper{
     position: absolute;
-    width: 7%;
-    bottom: 0; 
-    animation: fadein 15s 1 ease-in-out forwards;
+    width: 5%;
+    bottom: 7%;
+    left: 3%; 
+    animation: fadein 10s 1 ease-in-out forwards;
 }
 .lazer{
     position: absolute;
-    top: 91%;
+    top: 86%;
     left: 3%;
     height: 5px;
     width: 30px;
@@ -51,7 +53,7 @@ body{
 #jawa{
     position: absolute;
     width: 7%;
-    bottom: 0%;
+    bottom: 2%;
     left: 20%;
     z-index: -1;
 }
@@ -65,10 +67,9 @@ body{
 #darth-vader{
     position: absolute;
     width: 7%;
-    bottom: 0%;
+    bottom: 2%;
     right: 15%;
-    animation: fadein 30s 1 ease-in-out;
-    
+    animation: fadein 5s 1 ease-in-out;    
 }
 #c-3po{
     position: absolute;
@@ -114,14 +115,85 @@ body{
     top: 10%;
     left: -3%;
     transform: rotate(60deg);
-    animation: hiding 5s 3 ease-in-out;
+    animation: hiding 5s infinite ease-in-out;
 }
+
+/* knapper for å komme til en ny side */
+
+
+
+
+/* funfact */
+.funfact1{                 /* Denne funfact boksen er plassert over Ray og R2D2 */
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    bottom: 35%;
+    right: 60%;
+    color: black;
+    background-color: #fff;
+    visibility: hidden;
+}
+
+.funfact2{                 /* Denne funfact boksen er plassert over trooper-3 */
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    bottom: 18%;
+    right: 1%;
+    color: black;
+    background-color: #fff;
+    visibility: visible;
+    
+}
+.funfact3{                 /* Denne funfact boksen er plassert over tusken */
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    bottom: 35%;
+    right: 25%;
+    color: black;
+    background-color: #fff;
+    visibility: visible;
+    
+}
+.funfact4{                 /* Denne funfact boksen er plassert over tusken */
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    bottom: 60%;
+    right: 80%;
+    color: black;
+    background-color: #fff;
+    visibility: visible;
+}
+
 
 
 /* Hover-animations*/
-#darth-vader:hover + #c-3po{
-    visibility: visible;    
+#ray:hover + .funfact1{
+    visibility: visible;
 }
+
+
+
+
+
+
+
+
+
+
+#darth-vader:hover + #c-3po{
+    visibility: visible;
+} 
+#trooper:hover{
+        transform: scale(1.5);
+}
+    
+#darth-vader:hover{
+        transform: scale(1.5);
+}    
 #trooper:hover + .lazer{
     visibility: visible;
 }
@@ -129,11 +201,13 @@ body{
 
 /* Animations */
 @keyframes fadeout{                                 /* Animation for the intro-page */
-    0% {opacity: 1; transform: scale(1,1);}
-    100% {opacity: 0; transform: scale(3,3);}
+    0% {display: block; opacity: 1; transform: scale(2);}
+    75%{display: block; opacity: 1; transform: scale(1);}
+    100%{display: none; opacity: 0; transform: scale(2);}
 }
 @keyframes fadein{         /* I made this animation so the figures that have hover-effect will work */
-    0%{opacity: 0;}            
+    0%{opacity: 0;}
+    75%{opacity: 0;}            
     100%{opacity: 1;}           
 }
 @keyframes up{                       /* This is the animation for darth-vader to lift up C-3PO */
@@ -142,15 +216,18 @@ body{
     100%{ bottom: 20%;  }
 }
 @keyframes flight{                               /* Animation for the aircraft */
-    0%{transform: translateX(0); width: 3%;}
-    50% {transform: translateX(-105vw); width: 5%;}
-    100%{transform: translateX(0);}
+    0%{ transform: scale(1);}
+    35%{top: 6%;}
+    48%{transform: scale(1); top: 8%;}
+    50% {transform: scaleX(-1); width: 5%; left: 0%;}
+    75%{top: 20%;}
+    98%{transform: scaleX(-1);}
+    100%{transform: scale(1);}
 }
 @keyframes shooting{                         /* Animation for the lazer coming from trooper */
     from { bottom: 5%; left: 8%; }
     to { bottom: 5%; left: 22%; }
 }
-
 @keyframes hiding{
     0%{opacity: 0;}
     100%{opacity: 1;}
