@@ -23,7 +23,7 @@ body{
     left: 30%;
 }
 
-/*Links/button*/
+/*LINKS/Button*/
 .links {
     padding: 20px;
     width: 400px;
@@ -189,16 +189,20 @@ body{
             
            
         }
-    
-        95%{
-            transform: scaleX(-1);
-        }
+
+
+    95%{
+        transform: scaleX(-1);  
+    }
+       
     
         100% {
             top:70%;
-            right: 0;        
+            right: 0;    
+              
         }
     }
+    
 
 
 

@@ -213,13 +213,59 @@
         .bottom-right-panel2 {
             position: absolute;
             width: 70px;
-            border-bottom: 150px solid rgb(214, 159, 87);
+            border-bottom: 160px solid rgb(214, 159, 87);
             border-left: 60px solid transparent;
             border-right: 0px solid transparent;
             transform: rotate(-14deg) scale(-1,-1);
             top: 420px;
             left: 575px;
             z-index: -5;
+        }
+
+        .inside-panel-right {
+            position: absolute;
+            top: 355px;
+            left: 485px;
+            border-top: 45px solid transparent;
+            border-bottom: 45px solid transparent;
+            border-left: 200px solid rgb(214, 159, 87);
+            transform: rotate(-2deg);
+            z-index: -5;
+            opacity: 1;
+        }
+
+        .inside-panel-left {
+            position: absolute;
+            top: 365px;
+            left: 225px;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-left: 200px solid rgb(214, 159, 87);
+            transform: scale(-1, -1);
+            z-index: -5;
+        }
+
+        .inside-panel-mid {
+            position: absolute;
+            height: 90px;
+            width: 80px;
+            top: 365px;
+            left: 415px;
+            background-color: rgb(214, 159, 87);
+            transform: rotate(-14deg);
+            z-index: -5;
+            opacity: 1;
+        }
+
+        .inside-panel-line {
+            position: absolute;
+            width: 80px;
+            height: 5px;
+            background-color: rgb(173, 128, 69);
+            transform: rotate(-89deg);
+            top: 396px;
+            left: 445px;
+            z-index: -4;
         }
 
     </style>
@@ -254,6 +300,11 @@
         <div class="bottom-left-panel"></div>
         <div class="bottom-right-panel1"></div>
         <div class="bottom-right-panel2"></div>
+        <div class="inside-panel-right"></div>
+        <div class="inside-panel-left"></div>
+        <div class="inside-panel-mid"></div>
+        <div class="inside-panel-line"></div>
+
 
 
     </div>
