@@ -62,8 +62,8 @@ body{
     position: fixed;
     top: 25%;
     left: 0;
-    animation: fly linear 8s;
-    animation-delay: 2s;
+    animation: fly linear 4s infinite;
+    
 }
 
 .harryBroom {
@@ -155,23 +155,23 @@ body{
 
 /*Keyframes*/
 
-/*
+
 @keyframes fly {
     0%{
         left: 0;
+        
     }
 
     50%{
-        left: 50%;
-        top: 0;
-        transform: translate(50%, 90%);
+        right: 50%;
+        bottom: 100%;
     }
 
     100%{
-        transform: translate(0,0)
+        left: 0
     }
 
-} */
+} 
 
 @keyframes broomFly {
         0% {
@@ -179,6 +179,9 @@ body{
             right: 0%;
         }
 
+        55%{
+            transform: scaleX(-1); 
+        }
 
         48% {
             transform: scaleX(1);
@@ -186,7 +189,7 @@ body{
         50%{
             right: 90%;
             top: 0%;
-            transform: scaleX(-1);
+            
            
         }
 
