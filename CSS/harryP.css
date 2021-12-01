@@ -20,8 +20,7 @@ body{
     min-width: 100%;
     min-height: 56.25vw; 
     z-index: 5;
-    
-    }
+}
     
 .fullscreen-bg {
     overflow: hidden;
@@ -100,6 +99,14 @@ body{
 
 /*ANIMATIONS */
 
+.snitch {
+    height: 50px;
+    position: absolute;
+    animation: broomFly linear 8s infinite;
+    animation-delay: 3.5s;
+    visibility: hidden;
+}
+
 .harryBroom {
     position: fixed;
     top: 35%;
@@ -129,7 +136,17 @@ body{
 }
 
 
-/* Characters */
+
+/* Characters+ Facts */
+.funfacts {
+    color: black;
+    background-color: white;
+    margin: 0;
+    width: 250px;
+    position: absolute;
+    visibility: hidden;
+}
+
 .ron {
     position: fixed;
     bottom: 0;
@@ -149,10 +166,19 @@ body{
     animation-delay: 4s;
 }
 
+.deatheater-funfact {
+    left: 25%;
+    bottom: 33%;
+}
+
+.deatheater:hover + .deatheater-funfact{
+    visibility: visible;
+}
+
 .hermonie {
     position: fixed;
     bottom: 5%;
-    right: 20%;
+    right: 10%;
     height: 250px;
     visibility: hidden;
     animation: appear 1s forwards;
@@ -160,14 +186,8 @@ body{
 }
 
 .hermonie-funfact {
-    margin: 0;
-    width: 250px;
-    position: absolute;
     bottom: 35%;
-    right: 25%;
-    color: black;
-    background-color: #fff;
-    visibility: hidden;
+    right: 12%;
 }
 
 .hermonie:hover + .hermonie-funfact{
@@ -185,17 +205,30 @@ body{
 }
 
 .albus-funfact{
-    color: black;
-    background-color: white;
-    margin: 0;
-    width: 250px;
-    position: absolute;
     left: 35%;
     top: 38%;
-    visibility: hidden;
 }
 
 .albus:hover + .albus-funfact{
+    visibility: visible;
+}
+
+.hagrid {
+    height: 200px;
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    visibility: hidden;
+    animation: appear 1s forwards;
+    animation-delay: 4s;
+}
+
+.hagrid-funfact {
+    right: 32%;
+    bottom: 35%;
+}
+
+.hagrid:hover + .hagrid-funfact {
     visibility: visible;
 }
 
