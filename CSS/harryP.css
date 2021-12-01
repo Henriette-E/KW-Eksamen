@@ -179,11 +179,14 @@ body{
             right: 0%;
         }
 
+        55%{
+            transform: scaleX(-1); 
+        }
 
         50%{
             right: 90%;
             top: 0%;
-            transform: scaleX(-1);
+            
            
         }
 
