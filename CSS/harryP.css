@@ -192,7 +192,7 @@ body{
 
 
         98%{
-            transform: scaleX(1);  
+            transform: scaleX(-1);  
         }
        
     
