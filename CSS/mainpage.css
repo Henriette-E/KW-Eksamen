@@ -3,8 +3,8 @@
     src: url(/Fonts/Legothick.ttf);
 }
 
-.test {
-    z-index: -1;
+.no-pointer-events {
+    pointer-events: none;
 }
 
 .drag-box-above-chest {
@@ -15,7 +15,7 @@
     position: absolute;
 }
 
-.z-index-to-hide-lego {
+.lego2-on-top-at-start {
     z-index: 5;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .drag-box-above-chest:focus{
-    
+    z-index: 999;
     border: red 5px solid;
 }
 
@@ -61,15 +61,11 @@ textarea {
 }
 
 .lego-brick {
-    /*👉width: 15vw;👈*/
     height: 6vh;
-    background-color: red;
 }
 
 .lego-dots {
     display: flex;
-    /* Same width as .lego-brick */
-    /*👉width: 10vw;👈*/
     justify-content: space-evenly;
     height: 1.3vh;
 }
@@ -86,10 +82,21 @@ textarea {
     width: 20vw;
 }
 
+.lego1-color {
+    background-color: rgb(131, 129, 129);
+}
+
+.lego2-color {
+    background-color: rgb(27, 26, 26);
+}
+
+.lego3-color {
+    background-color: rgb(54, 119, 54);
+}
+
 .lego-dot {
     width: 2vw;
     height: 1.6vh;
-    background-color: red;
 }
 
 .link-text1 {
@@ -109,7 +116,7 @@ textarea {
     left: 43vw;
     font-family: Legofont;
     font-size: 1.7vw;
-    z-index: 4;
+    z-index: 6;
 }
 
 .link-text3 {
@@ -174,6 +181,46 @@ textarea {
     border-right: black 2px solid;
 }
 
+.block-lego1-at-start {
+    position: absolute;
+    height: 6vh;
+    left: 32.9vw;
+    top: 56.3vh;
+    z-index: 6;
+}
+
+.block-lego2-at-start {
+    position: absolute;
+    height: 6vh;
+    left: 46.3vw;
+    top: 48.3vh;
+    z-index: 6;
+}
+
+.block-lego3-at-start {
+    position: absolute;
+    height: 6vh;
+    left: 55.3vw;
+    top: 54.3vh;
+    z-index: 6;
+}
+
+.lego1-start-pos {
+    height: 54vh;
+    width: 40vw;
+}
+
+.lego2-start-pos {
+    height: 46vh;
+    width: 51vw
+}
+
+.lego3-start-pos {
+    height: 52vh;
+    width: 65vw;
+}
+
+
 
 
 /* REST OF DOCUMENT IS FOR CHEST CSS */
@@ -186,7 +233,7 @@ textarea {
     background-color: transparent;
     left: calc(50vw - 400px);
     top: calc(60vh - 400px);
-    transform: scale(1);
+    transform: scale(1.2);
     
 }
 
@@ -451,5 +498,4 @@ textarea {
 .lock {
     position: relative;
     left: -15px;
-    z-index: 99999;
 }
