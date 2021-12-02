@@ -135,16 +135,17 @@ body{
 
 .funfacts {
     color: black;
-    border-radius: 9px;
+    border-radius: 20px;
     border: 3px solid #04310f;
-    background-color: #496943;
+    background-color: #667a62;
     margin: 0;
-    width: 300px;
-    height: 45px;
+    width: 260px;
+    height: 55px;
     position: absolute;
     visibility: hidden;
     font-family: Legofont;
     font-weight: bold;
+    text-align: center;
 }
 
 .ron {
