@@ -166,30 +166,39 @@ body{
 }
 
 /* funfact */
-.funfact1{                 /* Denne funfact boksen er plassert over Ray og R2D2 */
+.funfact1{  
+    color:#000;
+    border-radius: 20px;
+    border: 3px solid #5a5c5e;
+    background-color: #bdbec0;               /* Denne funfact boksen er plassert over Ray og R2D2 */
     margin: 0;
     width: 250px;
     text-align: center;
     position: absolute;
     bottom: 35%;
     right: 60%;
-    color: black;
-    background-color: #fff;
     visibility: hidden;
+    font-family: didot, sans-serif;
+    font-weight: bold;
 }
 #ray:hover + .funfact1{
     visibility: visible;
 }
 .funfact2{   
+    color:#000;
+    border-radius: 20px;
+    border: 3px solid #5a5c5e;
+    background-color: #bdbec0;
     position: absolute;
     text-align: center;
     top: 18%;
     right: 1%;              /* Denne funfact boksen er plassert over trooper-3 */
     margin: 0;
     width: 250px;
-    color: yellow;
-    font-family: Legofont;
-    background-color: black;
+    font-family: didot, sans-serif;
+    font-weight: bold;
+
+    
     opacity: 0;
     animation: fadein 13s 1 forwards;
 }
@@ -197,15 +206,19 @@ body{
     margin: 0;
     width: 250px;
     position: absolute;
-    border: 2px red solid;
     bottom: 35%;
     right: 25%;
     text-align: center;
-    color: black;
-    background-color: #fff;
-    visibility: hidden;   
-    font-family: Legofont;
+    visibility: hidden; 
+    color:#000;
+    border-radius: 20px;
+    border: 3px solid #5a5c5e;
+    background-color: #bdbec0;
+    font-family: didot, sans-serif;
     font-weight: bold;
+
+
+    
 }
 #tusken:hover + .funfact3{
     visibility: visible;
@@ -282,7 +295,6 @@ body{
     98%{opacity: 1;}
     100%{opacity: 1;}
 }
-
 @keyframes popUp {
     0%{ bottom: -20%; opacity: 0;}
     75%{bottom: 0%; right: 50%; opacity: 0.5;}

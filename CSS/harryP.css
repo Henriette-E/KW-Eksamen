@@ -6,6 +6,7 @@ body{
     background-image: url(../Images/harryPImages/uhh.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: url(../Images/harryPImages/cursor2.png), auto;
 }
 
 
@@ -60,41 +61,34 @@ body{
     
 }
 
-/*LINKS/Button*/
-.links {
-    padding: 20px;
-    width: 400px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+/*BOX FOR BUTTONS*/
+.button.container{
+    width: 145px;
+}
 
+/*BUTTONS*/
+.button{
+    position: relative;
+    text-decoration: #000;
     
 }
 
-.button {
-    text-decoration: none;
-    padding: 8px;
-    background-color: #fff;
-    color: black;
-    font-size: 16px;
+/*TEXT*/
+.links{
+    position: absolute;
+    top: 30%;
+    text-decoration: brown;
+    color: whitesmoke;
+    text-transform: none;
+    opacity: 0;
+    font-family: didot, sans-serif;
     font-weight: bold;
-    border-radius: 25px;
-    margin-bottom: 1.2rem;
-    visibility: hidden;
-    animation: appear 1s forwards;
-    animation-delay: 4s;
+    font-size: 17px;
 }
 
-.button:hover, .button:focus {
-    padding: 10px 20px;
-    background-color: black;
-    color: #fff;
-    border-radius: 25px;
-    font-size: 22px;
+/*HOVER EFFEKT*/
+.links:hover{
+    opacity: 1;
 }
 
 /*ANIMATIONS */
@@ -139,14 +133,18 @@ body{
 
 /* Characters+ Facts */
 .funfacts {
-    color: black;
-    border-radius: 5px;
-    border: 2.5px solid #530404;
-    background-color: #eee5c1;
+    color:#000;
+    border-radius: 20px;
+    border: 3px solid #04310f;
+    background-color: #667a62;
     margin: 0;
-    width: 250px;
+    width: 260px;
+    height: 60px;
     position: absolute;
     visibility: hidden;
+    font-family: didot, sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 .ron {

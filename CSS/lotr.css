@@ -13,23 +13,34 @@ body {
     cursor: url(../Images/lotr/sting-cursor.png), default;
 }
 
-/* Menu sidebar LINEA: */
-
-.menu-bar {
-    position: absolute;
-    z-index: 5;
-    right: 0;
-  }
-  
-.btn {
-    width: 100px;
-    height: auto;
-    opacity: 0.85;
+/*BOX FOR BUTTONS*/
+.button.container{
+    width: 145px;
 }
-  
-.btn:hover {
+
+/*BUTTONS*/
+.button{
+    position: relative;
+    text-decoration: #000;
+    
+}
+
+/*TEXT*/
+.links{
+    position: absolute;
+    top: 30%;
+    text-decoration: rgb(255, 255, 255);
+    color: whitesmoke;
+    text-transform: none;
+    opacity: 0;
+    font-family: didot, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*HOVER EFFEKT*/
+.links:hover{
     opacity: 1;
-    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
 }
   
 /* Intro */
@@ -214,43 +225,68 @@ body {
 /* LINEA: Funfact bokser */
 
 .funfact-text {
-    position: absolute;
-    border: aquamarine 2px solid ;
-    background-color: cadetblue;
-    border-radius: 25px;
-    height: 100px;
+    border: 3px solid #1b1b1b;
+    background-color: #666d65;
+    border-radius: 20px;
+    height: 90px;
     width: 250px;
+    font-family: didot, sans-serif;
     visibility: hidden;
-    font-family: Legofont;
-    font-weight: bold;
+    text-align: center;
 }
 
-#merry-funfact {
+#merry-text {
+    position: absolute;
     top: 20%;
     right: 15%;
+
 }
 
-#merry:hover + #merry-funfact {
+#merry:hover + #merry-text {
     visibility: visible;
 }
 
-#pippin-funfact {
+#pippin-text {
+    position: absolute;
     top: 40%;
     right: 2%;
 }
 
-#pippin:hover + #pippin-funfact {
+#pippin:hover + #pippin-text {
     visibility: visible;
 }
 
-#sam-funfact {
-    top: 50%;
-    left: 35%;
+#sam-text {
+    position: absolute;
+    top: 37%;
+    left: 38%;
 }
 
-#sam:hover + #sam-funfact {
+#sam:hover + #sam-text {
     visibility: visible;
 }
+
+#gollum {
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    height: 150px;
+    opacity: 0;
+}
+
+#gollum:hover {
+    animation-name: visibility;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
+}
+
+@keyframes visibility {
+    from {opacity: 0;}
+    to {opacity: 0.8;}
+}
+
 /* Lego logo*/ 
 
 .logo{
