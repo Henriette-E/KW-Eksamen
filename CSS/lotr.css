@@ -10,6 +10,28 @@ body {
     cursor: url(../Images/lotr/sting-cursor.png), default;
 }
 
+/* Menu sidebar, LINEA: gjør hva du vil her */
+
+.menu-bar {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+  }
+  
+.btn {
+    width: 100px;
+    height: auto;
+    opacity: 0.85;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+
+#lotr-btn {
+    visibility: hidden;
+}
+  
 /* Intro */
 
 .intro-bg {

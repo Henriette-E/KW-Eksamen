@@ -9,7 +9,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#logo{
+    position: absolute;
+    width: 10%;
+    top: 10%;
+    right: 3%;
+    animation: pulse 2s infinite;
+}
 /* INTRO-PAGE */
 .intro-bg {
     width: 100%;
@@ -56,6 +62,7 @@ body{
     bottom: 2%;
     left: 20%;
     z-index: -1;
+
 }
 #aircraft{
     position: absolute;
@@ -76,7 +83,7 @@ body{
     width: 4%;
     bottom: 20%;
     right: 40%;
-    animation: up 10s infinite;
+    animation: up 3s infinite;
     visibility: hidden;
    
 }
@@ -117,8 +124,43 @@ body{
     transform: rotate(60deg);
     animation: hiding 5s infinite ease-in-out;
 }
+#jawa2{
+    position: absolute;
+    width: 8%;
+    bottom: -20%;
+    left: 50%;
+    animation: popUp 15s 3 ease-in-out;
+    animation-delay: 10s;
+
+}
+
 
 /* knapper for å komme til en ny side */
+.hp-button{
+    position: absolute;
+    width: 5%;
+    right: 1%;
+    top: 23%;
+    transform: scale(0.5);
+    animation: buttons 10s 1 forwards;
+}
+.lotr-button{
+    position: absolute;
+    width: 10%;
+    right: -2%;
+    top: 40%;
+    transform: scale(0.5);
+    animation: buttons 10s 1 forwards;
+}
+.mainpage-button{
+    position: absolute;
+    width: 5%;
+    right: 0.5%;
+    top: 33%;
+    transform: scale(0.5);
+    animation: buttons 10s 1 forwards;
+}
+
 
 
 
@@ -132,19 +174,24 @@ body{
     right: 60%;
     color: black;
     background-color: #fff;
-    visibility: hidden;
+    visibility: visible;
 }
 
 .funfact2{                 /* Denne funfact boksen er plassert over trooper-3 */
     margin: 0;
     width: 250px;
     position: absolute;
-    bottom: 18%;
+    text-align: center;
+    top: 18%;
     right: 1%;
-    color: black;
-    background-color: #fff;
-    visibility: visible;
-    
+    color: yellow;
+    background-color: black;
+    opacity: 0;
+    animation: fact;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .funfact3{                 /* Denne funfact boksen er plassert over tusken */
     margin: 0;
@@ -171,18 +218,6 @@ body{
 
 
 /* Hover-animations*/
-#ray:hover + .funfact1{
-    visibility: visible;
-}
-
-
-
-
-
-
-
-
-
 
 #darth-vader:hover + #c-3po{
     visibility: visible;
@@ -198,6 +233,17 @@ body{
     visibility: visible;
 }
 
+.hp-button:hover{
+    transform: scale(1);
+}
+.lotr-button:hover{
+    transform: scale(1);
+    cursor: url(/Images/lotr/sting-cursor.png),auto;
+}
+
+.mainpage-button:hover{
+    transform: scale(1);
+}
 
 /* Animations */
 @keyframes fadeout{                                 /* Animation for the intro-page */
@@ -211,9 +257,9 @@ body{
     100%{opacity: 1;}           
 }
 @keyframes up{                       /* This is the animation for darth-vader to lift up C-3PO */
-    0%{ bottom: 20%; }
-    50%{ bottom: 50%; }
-    100%{ bottom: 20%;  }
+    0%{ bottom: 20%; transform: rotate(-180deg);}
+    50%{ bottom: 50%;}
+    100%{ bottom: 20%; transform: rotate(180deg);}
 }
 @keyframes flight{                               /* Animation for the aircraft */
     0%{ transform: scale(1);}
@@ -229,6 +275,39 @@ body{
     to { bottom: 5%; left: 22%; }
 }
 @keyframes hiding{
+    0%{opacity: 0;}
+    35%{opacity: 0;}
+    50%{opacity: 0;}
+    98%{opacity: 1;}
+    100%{opacity: 1;}
+}
+
+
+@keyframes popUp {
+    0%{ bottom: -20%; opacity: 0;}
+    75%{bottom: 0%; right: 50%; opacity: 0.5;}
+    100%{bottom: -30%; opacity: 1;}
+    
+}
+@keyframes pulse {
+    0%{
+        transform:scale(0.7);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.7);
+    }
+}
+
+
+@keyframes fact{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes buttons {
     0%{opacity: 0;}
     100%{opacity: 1;}
 }
