@@ -1,4 +1,4 @@
-/* Main page */
+/*Main page*/
 html{
     cursor: url(/images/star-wars/red_Lightsaber-min.png),auto;
 }
@@ -17,7 +17,7 @@ body{
     z-index: -1;
    
 }
-/* INTRO-PAGE */
+/*Intro-page*/
 .intro-bg {
     width: 100%;
     height: 100%;
@@ -66,7 +66,7 @@ body{
 }
 #aircraft{
     position: absolute;
-    left: 93%;
+    left: 80%;
     animation: flight 25s 1s linear infinite;
     width: 5%;
     z-index: -1;
@@ -152,7 +152,7 @@ body{
 }
 
 
-/*text*/
+/*Text*/
 .links{
     position: absolute;
     top: 30%;
@@ -166,7 +166,7 @@ body{
 }
 
 
-/* funfact*/
+/*Funfact*/
 .funfact1{  
     color:#000;
     border-radius: 20px;
@@ -193,7 +193,7 @@ body{
     position: absolute;
     text-align: center;
     top: 60%;
-    right: 1%;              /* This funfact box is placed over Mainpage button - LINEA */
+    right: 1%;              /*This funfact box is placed over Mainpage button - LINEA*/
     margin: 0;
     width: 250px;
     font-family: didot, sans-serif;
@@ -203,7 +203,7 @@ body{
     opacity: 0;
     animation: fadein 13s 1 forwards;
 }
-.funfact3{                 /* This funfact box is placed over tusken - LINEA*/
+.funfact3{                 /*This funfact box is placed over tusken - LINEA*/
     margin: 0;
     width: 250px;
     position: absolute;
@@ -229,7 +229,7 @@ body{
     transform: scale(1.5);
 }
 
-/* Hover-animations*/
+/*Hover-animations*/
 
 #darth-vader:hover + #c-3po{
     visibility: visible;
@@ -256,23 +256,23 @@ body{
     transform: scale(1);
 }
 
-/* Animations */
-@keyframes fadeout{                                         /* Animation for the intro-page */
+/*Animations*/
+@keyframes fadeout{                                         /*Animation for the intro-page*/
     0% {display: block; opacity: 1; transform: scale(2);}
     75%{display: block; opacity: 1; transform: scale(1);}
     100%{display: none; opacity: 0; transform: scale(2);}
 }
-@keyframes fadein{                  /* I made this animation so the figures that have hover-effect will work */
+@keyframes fadein{                  /*I made this animation so the figures that have hover-effect will work*/
     0%{opacity: 0;}
     75%{opacity: 0;}            
     100%{opacity: 1;}           
 }
-@keyframes up{                       /* This is the animation for darth-vader to lift up C-3PO */
+@keyframes up{                       /* This is the animation for darth-vader to lift up C-3PO*/
     0%{ bottom: 20%; transform: rotate(-180deg);}
     50%{ bottom: 50%;}
     100%{ bottom: 20%; transform: rotate(180deg);}
 }
-@keyframes flight{                               /* Animation for the aircraft */
+@keyframes flight{                               /*Animation for the aircraft*/
     0%{ transform: scale(1);}
     20%{top: 20%;}
     35%{top: 30%;}
@@ -282,7 +282,7 @@ body{
     98%{transform: scaleX(-1); top: 20%;}
     100%{transform: scale(1);}
 }
-@keyframes shooting{                         /* Animation for the lazer coming from trooper */
+@keyframes shooting{                         /*Animation for the lazer coming from trooper*/
     from { bottom: 5%; left: 8%; }
     to { bottom: 5%; left: 22%; }
 }
