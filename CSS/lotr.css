@@ -22,8 +22,9 @@ body {
 .button{
     position: relative;
     text-decoration: #000;
-    
 }
+
+
 
 /*TEXT*/
 .links{
@@ -41,6 +42,7 @@ body {
 /*HOVER EFFEKT*/
 .links:hover{
     opacity: 1;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
 }
   
 /* Intro */
