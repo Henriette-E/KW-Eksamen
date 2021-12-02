@@ -78,7 +78,7 @@ body{
     position: absolute;
     top: 30%;
     text-decoration: brown;
-    color: rgb(231, 231, 186);
+    color: whitesmoke;
     text-transform: none;
     opacity: 0;
     font-family: didot, sans-serif;
@@ -133,7 +133,7 @@ body{
 
 /* Characters+ Facts */
 .funfacts {
-    color: rgb(231, 231, 186);
+    color:#000;
     border-radius: 20px;
     border: 3px solid #04310f;
     background-color: #667a62;
