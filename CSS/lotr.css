@@ -253,3 +253,12 @@ body {
 #sam:hover + #sam-funfact {
     visibility: visible;
 }
+/* Lego logo*/ 
+
+.logo{
+    padding: 0;
+    height: 15%;
+    position: absolute;
+    left: 33%;
+    top: 10;   
+}
