@@ -62,8 +62,9 @@ body{
 }
 
 /*BOX FOR BUTTONS*/
-.button.container{
-    width: 145px;
+.button-container{
+    width: 160px;
+    right: 0%;
 }
 
 /*BUTTONS*/
@@ -136,7 +137,7 @@ body{
     color:#000;
     border-radius: 20px;
     border: 3px solid #04310f;
-    background-color: #667a62;
+    background-color: #6a7e66;
     margin: 0;
     width: 260px;
     height: 60px;

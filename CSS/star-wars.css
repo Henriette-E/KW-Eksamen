@@ -136,7 +136,8 @@ body{
 }
 
 
-/* knapper for å komme til en ny side */
+
+/*  buttons that will link to the other pages - LINEA  */
 .mainpage-button{
     position: absolute;
     width: 10%;
@@ -165,12 +166,13 @@ body{
     
 }
 
-/* funfact */
+
+/* funfact - LINEA */
 .funfact1{  
     color:#000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
-    background-color: #bdbec0;               /* Denne funfact boksen er plassert over Ray og R2D2 */
+    background-color: #bdbec0;               /* This funfact box is placed over Ray og R2D2 - LINEA */
     margin: 0;
     width: 250px;
     text-align: center;
@@ -192,7 +194,7 @@ body{
     position: absolute;
     text-align: center;
     top: 18%;
-    right: 1%;              /* Denne funfact boksen er plassert over trooper-3 */
+    right: 1%;              /* This funfact box is placed over Mainpage button - LINEA */
     margin: 0;
     width: 250px;
     font-family: didot, sans-serif;
@@ -202,7 +204,7 @@ body{
     opacity: 0;
     animation: fadein 13s 1 forwards;
 }
-.funfact3{                 /* Denne funfact boksen er plassert over tusken */
+.funfact3{                 /* This funfact box is placed over tusken - LINEA*/
     margin: 0;
     width: 250px;
     position: absolute;
@@ -216,9 +218,6 @@ body{
     background-color: #bdbec0;
     font-family: didot, sans-serif;
     font-weight: bold;
-
-
-    
 }
 #tusken:hover + .funfact3{
     visibility: visible;
@@ -259,12 +258,12 @@ body{
 }
 
 /* Animations */
-@keyframes fadeout{                                 /* Animation for the intro-page */
+@keyframes fadeout{                                         /* Animation for the intro-page */
     0% {display: block; opacity: 1; transform: scale(2);}
     75%{display: block; opacity: 1; transform: scale(1);}
     100%{display: none; opacity: 0; transform: scale(2);}
 }
-@keyframes fadein{         /* I made this animation so the figures that have hover-effect will work */
+@keyframes fadein{                  /* I made this animation so the figures that have hover-effect will work */
     0%{opacity: 0;}
     75%{opacity: 0;}            
     100%{opacity: 1;}           
