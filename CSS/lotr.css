@@ -220,6 +220,36 @@ body {
     border-radius: 25px;
     height: 100px;
     width: 250px;
+    z-index: -1;
+    visibility: hidden;
+}
+
+#merry-funfact {
+    top: 20%;
+    right: 15%;
+}
+
+#merry:hover + #merry-funfact {
+    visibility: visible;
+}
+
+#pippin-funfact {
+    top: 40%;
+    right: 2%;
+}
+
+#pippin:hover + #pippin-funfact {
+    visibility: visible;
+}
+
+
+#sam-funfact {
+    top: 50%;
+    left: 35%;
+}
+
+#sam:hover + #sam-funfact {
+    visibility: visible;
 }
 
 .funfact-text {
