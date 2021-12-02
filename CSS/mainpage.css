@@ -99,7 +99,7 @@ textarea:hover {
 
 .link-text1 {
     position: absolute;
-    color: #e8ded1;
+    color: #fffacd;
     top: 32vh;
     left: 14vw;
     font-family: Legofont;
@@ -109,7 +109,7 @@ textarea:hover {
 
 .link-text2 {
     position: absolute;
-    color: #e8ded1;
+    color: #fffacd;
     top: 13vh;
     left: 43vw;
     font-family: Legofont;
@@ -119,17 +119,17 @@ textarea:hover {
 
 .link-text3 {
     position: absolute;
-    color: #e8ded1;
+    color: #fffacd;
     top: 26vh;
     left: 70.2vw;
     font-family: Legofont;
     font-size: 1.7vw;
-    color: #e8ded1;
+    color: #fffacd;
     z-index: 4;
 }
 
 .lego-background {
-    background-color: #e8ded1;
+    background-color: #fffacd;
     height: 100vh;
     width: 100vw;
 }
@@ -160,7 +160,7 @@ textarea:hover {
 
 .background-lego-brick {
     height: 6vh;
-    background-color: #e8ded1;
+    background-color: #fffacd;
     border: 2px solid #000000;
 }
 
@@ -173,7 +173,7 @@ textarea:hover {
 .background-lego-dot {
     width: 2vw;
     height: 1.6vh;
-    background-color: #e8ded1;
+    background-color: #fffacd;
     border-left: #000000 2px solid;
     border-top: #000000 2px solid;
     border-right:  #000000 2px solid;
@@ -264,7 +264,7 @@ a {
 
 
 
-/* REST OF DOCUMENT IS FOR CHEST CSS */
+/*Rest of document is for chest css*/
 
 
 
