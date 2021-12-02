@@ -48,6 +48,10 @@ body {
     cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
 }
   
+.link:hover{
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
+}
+
 /* Intro */
 
 .intro-bg {
@@ -177,6 +181,10 @@ body {
     animation: fadeIn 6s 1 ease-in-out;
 }
 
+.hobbit:hover {
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
+}
+
 #frodo {
     position: absolute;
     height: 200px;
@@ -191,7 +199,7 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
+    
 }
 
 @keyframes Invisibility {
