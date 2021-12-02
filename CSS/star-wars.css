@@ -140,7 +140,7 @@ body{
     position: absolute;
     width: 10%;
     right: -1%;
-    top: 23%;
+    top: 27%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
 }
