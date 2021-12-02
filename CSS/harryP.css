@@ -77,7 +77,7 @@ body{
 /*Buttons*/
 .button{
     position: relative;
-    text-decoration: #000;
+    text-decoration: #000000;
     
 }
 
@@ -85,8 +85,8 @@ body{
 .links{
     position: absolute;
     top: 30%;
-    text-decoration: #fff;
-    color:#000;
+    text-decoration: #ffffff;
+    color:#000000;
     text-transform: none;
     opacity: 0;
     font-family: didot, sans-serif;
@@ -97,7 +97,7 @@ body{
 /*Hover effect*/
 .links:hover{
     opacity: 1;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 25px;
     padding: 5px 10px;
 }
@@ -128,11 +128,11 @@ body{
     position: fixed;
     bottom: 10%;
     left: 10%;
-    border: solid green 2px;
+    border: solid #228c22 2px;
     height: 10px;
     width: 35px;
     border-radius: 15px;
-    background-color: green;
+    background-color: #228c22;
     transition: transform 1s;
     visibility: hidden;
 }
@@ -147,7 +147,7 @@ body{
 /**Kodet av Linea **/
 /*Characters+ funacts-linea*/
 .funfacts {
-    color:#000;
+    color:#000000;
     border-radius: 20px;
     border: 3px solid #04310f;
     background-color: #6a7e66;

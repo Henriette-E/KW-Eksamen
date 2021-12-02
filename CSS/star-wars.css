@@ -51,7 +51,7 @@ body{
     height: 5px;
     width: 30px;
     border-radius: 15px;
-    background-color: turquoise;
+    background-color: #30d5c8;
     visibility: hidden;
     animation: shooting 0.5s infinite ease-in-out;
     z-index: -1;
@@ -148,7 +148,7 @@ body{
 /*Buttons-linea*/
 .button{
     position: relative;
-    text-decoration: #000;
+    text-decoration: #000000;
 }
 
 /*Text-linea-linea*/
@@ -173,7 +173,7 @@ body{
 
 /*Funfact*/
 .funfact1{  
-    color:#000;
+    color:#000000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
     background-color: #bdbec0;               /*This funfact box is placed over Ray og R2D2 - linea*/
@@ -191,7 +191,7 @@ body{
     visibility: visible;
 }
 .funfact2{   
-    color:#000;
+    color:#000000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
     background-color: #bdbec0;
@@ -216,7 +216,7 @@ body{
     right: 25%;
     text-align: center;
     visibility: hidden; 
-    color:#000;
+    color:#000000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
     background-color: #bdbec0;
