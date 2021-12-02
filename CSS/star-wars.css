@@ -35,7 +35,7 @@ body{
     animation-iteration-count: 1;
     
 }
-/* Figures */
+/*Figures*/
 
 #trooper{
     position: absolute;
@@ -135,7 +135,7 @@ body{
 
 }
 
-/*Box for buttons*/
+/*Box for buttons-Linea*/
 .button-container{
     position: absolute;
     right: 0%;
@@ -145,24 +145,29 @@ body{
     
 }
 
-/*Buttons*/
+/*Buttons-linea*/
 .button{
     position: relative;
     text-decoration: #000;
 }
 
-
-/*Text*/
+/*Text-linea-linea*/
 .links{
     position: absolute;
-    top: 30%;
-    text-decoration: rgb(255, 255, 255);
-    color: whitesmoke;
+    top: 15%;
+    text-decoration: #ffff;
+    color: #ffff;
     text-transform: none;
     opacity: 0;
     font-family: didot, sans-serif;
     font-weight: bold;
     font-size: 20px;
+}
+/*Hover effect-linea*/
+.links:hover{
+    opacity: 1;
+    border-radius: 25px;
+    padding: 5px 10px;
 }
 
 
@@ -171,7 +176,7 @@ body{
     color:#000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
-    background-color: #bdbec0;               /* This funfact box is placed over Ray og R2D2 - LINEA */
+    background-color: #bdbec0;               /*This funfact box is placed over Ray og R2D2 - linea*/
     margin: 0;
     width: 250px;
     text-align: center;
@@ -193,7 +198,7 @@ body{
     position: absolute;
     text-align: center;
     top: 60%;
-    right: 1%;              /*This funfact box is placed over Mainpage button - LINEA*/
+    right: 1%;              /*This funfact box is placed over Mainpage button - Linea*/
     margin: 0;
     width: 250px;
     font-family: didot, sans-serif;
@@ -203,7 +208,7 @@ body{
     opacity: 0;
     animation: fadein 13s 1 forwards;
 }
-.funfact3{                 /*This funfact box is placed over tusken - LINEA*/
+.funfact3{                 /*This funfact box is placed over tusken - Linea*/
     margin: 0;
     width: 250px;
     position: absolute;
