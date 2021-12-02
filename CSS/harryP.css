@@ -65,6 +65,9 @@ body{
 .button-container{
     width: 160px;
     right: 0%;
+    position: absolute;
+    top: 0;
+    right: 2%;
 }
 
 /*BUTTONS*/
@@ -79,7 +82,7 @@ body{
     position: absolute;
     top: 30%;
     text-decoration: rgb(231, 219, 219);
-    color: whitesmoke;
+    color:#000;
     text-transform: none;
     opacity: 0;
     font-family: didot, sans-serif;
@@ -90,6 +93,9 @@ body{
 /*HOVER EFFEKT*/
 .links:hover{
     opacity: 1;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 10px;
 }
 
 /*ANIMATIONS */
