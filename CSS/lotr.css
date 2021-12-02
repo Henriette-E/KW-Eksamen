@@ -219,8 +219,7 @@ body {
     border-radius: 20px;
     height: 90px;
     width: 250px;
-    font-family: trattatello, fantasy;
-    font-weight: bold;
+    font-family: didot, sans-serif;
     visibility: hidden;
     text-align: center;
 }
