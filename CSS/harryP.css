@@ -6,7 +6,7 @@ body{
     background-image: url(../Images/harryPImages/uhh.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    cursor: url(../Images/harryPImages/cursor.png), default;
+    cursor: url(../Images/harryPImages/cursor.png), auto;
 }
 
 
