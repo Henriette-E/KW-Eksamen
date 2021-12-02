@@ -69,6 +69,7 @@ body{
 .button{
     position: relative;
     text-decoration: #000;
+    
 }
 
 /*TEXT*/
@@ -83,7 +84,7 @@ body{
 
 /*HOVER EFFEKT*/
 .links:hover{
-    opacity: 2;
+    opacity: 1;
 }
 
 /*ANIMATIONS */
