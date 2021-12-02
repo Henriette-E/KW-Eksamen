@@ -29,6 +29,7 @@ body {
   
 .btn:hover {
     opacity: 1;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
 }
   
 /* Intro */
