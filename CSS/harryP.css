@@ -314,19 +314,19 @@ body{
         0%{
             display: block;
             opacity: 1;
-            background-color: black
+            background-color:#000;
         }
     
         75% {
             display: block; 
             opacity: 1;
-            background-color: black
+            background-color: #000;
         }
     
         100%{
             opacity: 0;
             display: none;
-            background-color: black;
+            background-color: #000;
             visibility: visible;
         }
     }
