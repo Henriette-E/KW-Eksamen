@@ -21,7 +21,6 @@
 
 body {
     position: relative;
-    background-color: lavender;
     background-size: cover;
     min-height: 100vh;  
     overflow: hidden;
