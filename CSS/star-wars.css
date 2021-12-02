@@ -138,9 +138,9 @@ body{
 /* knapper for å komme til en ny side */
 .hp-button{
     position: absolute;
-    width: 10%;
-    right: -1%;
-    top: 27%;
+    width: 14%;
+    right: -3%;
+    top: 24%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
 }
