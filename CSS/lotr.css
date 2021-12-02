@@ -29,6 +29,7 @@ body {
   
 .btn:hover {
     opacity: 1;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
 }
   
 /* Intro */
@@ -213,7 +214,7 @@ body {
 
 /* LINEA: Funfact bokser */
 
-.funfact-div {
+.funfact-text {
     position: absolute;
     border: aquamarine 2px solid ;
     background-color: cadetblue;
@@ -221,6 +222,9 @@ body {
     height: 100px;
     width: 250px;
     z-index: -1;
+    visibility: hidden;
+    font-family: Legofont;
+    font-weight: bold;
 }
 
 #merry-funfact {
@@ -228,9 +232,17 @@ body {
     right: 15%;
 }
 
+#merry:hover + #merry-funfact {
+    visibility: visible;
+}
+
 #pippin-funfact {
     top: 40%;
     right: 2%;
+}
+
+#pippin:hover + #pippin-funfact {
+    visibility: visible;
 }
 
 #sam-funfact {
@@ -238,7 +250,6 @@ body {
     left: 35%;
 }
 
-.funfact-text {
-    font-family: Legofont;
-    font-weight: bold;
+#sam:hover + #sam-funfact {
+    visibility: visible;
 }
