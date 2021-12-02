@@ -136,6 +136,7 @@ body{
 }
 
 
+
 /*  buttons that will link to the other pages - LINEA  */
 .mainpage-button{
     position: absolute;
@@ -164,6 +165,7 @@ body{
     animation: fadein 8s 1 forwards;
     
 }
+
 
 /* funfact - LINEA */
 .funfact1{  
