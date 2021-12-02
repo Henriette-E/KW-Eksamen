@@ -14,8 +14,11 @@ body {
 }
 
 /*BOX FOR BUTTONS*/
-.button.container{
-    width: 145px;
+.button-container{
+    position: absolute;
+    right: 0%;
+    z-index: 1;
+    width: 160px;
 }
 
 /*BUTTONS*/
@@ -292,9 +295,9 @@ body {
 /* Lego logo*/ 
 
 .logo{
+    position: absolute;
     padding: 0;
     height: 15%;
-    position: absolute;
     left: 33%;
     top: 10;   
 }
