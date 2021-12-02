@@ -138,25 +138,34 @@ body{
 
 
 /*  buttons that will link to the other pages - LINEA  */
-.mainpage-button{
+/*BOX FOR BUTTONS*/
+.button-container{
     position: absolute;
-    width: 10%;
-    right: 1%;
-    top: 23%;
-    transform: scale(0.4);
-    animation: fadein 8s 1 forwards;
+    right: 0%;
+    z-index: 1;
+    width: 160px;
+    top: 0%;
     
 }
-   
+
+/*BUTTONS*/
+.button{
+    position: relative;
+    text-decoration: #000;
 }
-.hp-button{
+
+
+/*TEXT*/
+.links{
     position: absolute;
-    width: 10%;
-    right: -1%;
-    top: 33%;
-    transform: scale(0.4);
-    animation: fadein 8s 1 forwards;
-    
+    top: 0%;
+    text-decoration: rgb(255, 255, 255);
+    color: whitesmoke;
+    text-transform: none;
+    opacity: 0;
+    font-family: didot, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 
