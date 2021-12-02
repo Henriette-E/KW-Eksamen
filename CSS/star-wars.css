@@ -135,10 +135,7 @@ body{
 
 }
 
-
-
-/*  buttons that will link to the other pages - LINEA  */
-/*BOX FOR BUTTONS*/
+/*Box for buttons*/
 .button-container{
     position: absolute;
     right: 0%;
@@ -148,14 +145,14 @@ body{
     
 }
 
-/*BUTTONS*/
+/*Buttons*/
 .button{
     position: relative;
     text-decoration: #000;
 }
 
 
-/*TEXT*/
+/*text*/
 .links{
     position: absolute;
     top: 0%;
@@ -169,7 +166,7 @@ body{
 }
 
 
-/* funfact - LINEA */
+/* funfact*/
 .funfact1{  
     color:#000;
     border-radius: 20px;
@@ -195,7 +192,7 @@ body{
     background-color: #bdbec0;
     position: absolute;
     text-align: center;
-    top: 18%;
+    top: 60%;
     right: 1%;              /* This funfact box is placed over Mainpage button - LINEA */
     margin: 0;
     width: 250px;
