@@ -135,7 +135,7 @@ body{
 
 }
 
-/*BOX FOR BUTTONS*/
+/*Box for buttons*/
 .button-container{
     position: absolute;
     right: 0%;
@@ -145,14 +145,14 @@ body{
     
 }
 
-/*BUTTONS*/
+/*Buttons*/
 .button{
     position: relative;
     text-decoration: #000;
 }
 
 
-/*TEXT*/
+/*text*/
 .links{
     position: absolute;
     top: 0%;
@@ -166,7 +166,7 @@ body{
 }
 
 
-/* funfact - LINEA */
+/* funfact*/
 .funfact1{  
     color:#000;
     border-radius: 20px;
