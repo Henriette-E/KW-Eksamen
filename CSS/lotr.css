@@ -214,18 +214,17 @@ body {
 /* LINEA: Funfact bokser */
 
 .funfact-text {
-    position: absolute;
     border: aquamarine 2px solid ;
     background-color: cadetblue;
     border-radius: 25px;
     height: 100px;
     width: 250px;
-    visibility: hidden;
     font-family: Legofont;
     font-weight: bold;
 }
 
 #merry-funfact {
+    position: absolute;
     top: 20%;
     right: 15%;
 }
@@ -235,6 +234,7 @@ body {
 }
 
 #pippin-funfact {
+    position: absolute;
     top: 40%;
     right: 2%;
 }
@@ -244,6 +244,7 @@ body {
 }
 
 #sam-funfact {
+    position: absolute;
     top: 50%;
     left: 35%;
 }
@@ -251,6 +252,7 @@ body {
 #sam:hover + #sam-funfact {
     visibility: visible;
 }
+
 /* Lego logo*/ 
 
 .logo{
