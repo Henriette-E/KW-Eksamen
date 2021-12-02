@@ -85,19 +85,17 @@ body{
 .links{
     position: absolute;
     top: 30%;
-    text-decoration: #ffffff;
-    color:#000000;
+    color: #ffffff;
     text-transform: none;
     opacity: 0;
     font-family: didot, sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /*Hover effect*/
 .links:hover{
     opacity: 1;
-    background-color: #ffffff;
     border-radius: 25px;
     padding: 5px 10px;
 }
