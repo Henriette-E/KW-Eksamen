@@ -29,7 +29,7 @@ body {
 .links{
     position: absolute;
     top: 30%;
-    text-decoration: brown;
+    text-decoration: rgb(255, 255, 255);
     color: whitesmoke;
     text-transform: none;
     opacity: 0;
@@ -225,8 +225,8 @@ body {
 /* LINEA: Funfact bokser */
 
 .funfact-text {
-    border: 3px solid #04310f;
-    background-color: #667a62;
+    border: 3px solid #1b1b1b;
+    background-color: #666d65;
     border-radius: 20px;
     height: 90px;
     width: 250px;
