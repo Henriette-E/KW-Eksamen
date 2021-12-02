@@ -217,17 +217,19 @@ body {
     border: 3px solid #04310f;
     background-color: #667a62;
     border-radius: 20px;
-    height: 100px;
+    height: 90px;
     width: 250px;
     font-family: Legofont;
     font-weight: bold;
     visibility: hidden;
+    text-align: center;
 }
 
 #merry-text {
     position: absolute;
     top: 20%;
     right: 15%;
+
 }
 
 #merry:hover + #merry-text {
