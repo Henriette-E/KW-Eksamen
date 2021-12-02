@@ -11,10 +11,11 @@ body{
 }
 #logo{
     position: absolute;
-    width: 10%;
-    top: 10%;
-    right: 3%;
-    animation: pulse 2s infinite;
+    width: 20%;
+    top: 0%;
+    right: 40%;
+    z-index: -1;
+   
 }
 /* INTRO-PAGE */
 .intro-bg {
@@ -143,6 +144,7 @@ body{
     top: 24%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
+    
 }
 .lotr-button{
     position: absolute;
@@ -151,6 +153,7 @@ body{
     top: 44%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
+   
 }
 .mainpage-button{
     position: absolute;
@@ -159,6 +162,7 @@ body{
     top: 33%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
+    
 }
 
 
