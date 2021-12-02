@@ -220,6 +220,12 @@ textarea {
     width: 65vw;
 }
 
+a {
+    display: block;
+    height: 100%;
+    z-index: 7;
+}
+
 
 
 
@@ -234,7 +240,6 @@ textarea {
     left: calc(50vw - 400px);
     top: calc(60vh - 400px);
     transform: scale(1.2);
-    
 }
 
 .gold {
