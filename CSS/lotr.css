@@ -10,7 +10,7 @@ body {
     cursor: url(../Images/lotr/sting-cursor.png), default;
 }
 
-/* Menu sidebar, LINEA: gjør hva du vil her */
+/* Menu sidebar LINEA: */
 
 .menu-bar {
     position: absolute;
@@ -207,3 +207,6 @@ body {
     97% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+/* LINEA: Funfact bokser */
+
