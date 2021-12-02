@@ -138,9 +138,9 @@ body{
 /* knapper for å komme til en ny side */
 .hp-button{
     position: absolute;
-    width: 10%;
-    right: -1%;
-    top: 23%;
+    width: 14%;
+    right: -3%;
+    top: 24%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
 }
@@ -169,6 +169,7 @@ body{
 .funfact1{                 /* Denne funfact boksen er plassert over Ray og R2D2 */
     margin: 0;
     width: 250px;
+    text-align: center;
     position: absolute;
     bottom: 35%;
     right: 60%;
@@ -176,14 +177,13 @@ body{
     background-color: #fff;
     visibility: visible;
 }
-
-.funfact2{                 /* Denne funfact boksen er plassert over trooper-3 */
-    margin: 0;
-    width: 250px;
+.funfact2{   
     position: absolute;
     text-align: center;
     top: 18%;
-    right: 1%;
+    right: 1%;              /* Denne funfact boksen er plassert over trooper-3 */
+    margin: 0;
+    width: 250px;
     color: yellow;
     background-color: black;
     opacity: 0;
@@ -199,23 +199,11 @@ body{
     position: absolute;
     bottom: 35%;
     right: 25%;
+    text-align: center;
     color: black;
     background-color: #fff;
-    visibility: visible;
-    
+    visibility: visible;   
 }
-.funfact4{                 /* Denne funfact boksen er plassert over tusken */
-    margin: 0;
-    width: 250px;
-    position: absolute;
-    bottom: 60%;
-    right: 80%;
-    color: black;
-    background-color: #fff;
-    visibility: visible;
-}
-
-
 
 /* Hover-animations*/
 
