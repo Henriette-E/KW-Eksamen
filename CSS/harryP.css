@@ -1,3 +1,4 @@
+/**Kodet av Tarpinderjot **/
 body{
     position: relative;
     margin: 0;
@@ -9,7 +10,7 @@ body{
     cursor: url(../Images/harryPImages/cursor2.png), auto;
 }
 
-
+/**Kodet av Tarpinderjot **/
 /**Fade in video**/
 .fullscreen-bg__video {
     animation: smokeRemove 3s 1.5s forwards;
@@ -22,7 +23,8 @@ body{
     min-height: 56.25vw; 
     z-index: 5;
 }
-    
+ 
+/**Kodet av Tarpinderjot **/
 .fullscreen-bg {
     overflow: hidden;
     position: fixed;
@@ -36,7 +38,7 @@ body{
     }
 
 
-
+/**Kodet av Tarpinderjot **/
 /*Background Image*/
 .mainDiv {
     height: 100vh;
@@ -48,6 +50,7 @@ body{
     position: relative;
 }
 
+/**Kodet av Tarpinderjot **/
 /*Title*/
 .logo{
     padding: 0;
@@ -61,6 +64,7 @@ body{
     
 }
 
+/**Kodet av Linea **/
 /*Box for buttons*/
 .button-container{
     width: 160px;
@@ -98,6 +102,7 @@ body{
     padding: 5px 10px;
 }
 
+/**Kodet av Tarpinderjot **/
 /*Animations*/
 .snitch {
     height: 50px;
@@ -107,6 +112,7 @@ body{
     visibility: hidden;
 }
 
+/**Kodet av Tarpinderjot **/
 .harryBroom {
     position: fixed;
     top: 35%;
@@ -117,6 +123,7 @@ body{
     visibility: hidden;
 }
 
+/**Kodet av Tarpinderjot **/
 .spell {
     position: fixed;
     bottom: 10%;
@@ -130,13 +137,14 @@ body{
     visibility: hidden;
 }
 
+/**Kodet av Tarpinderjot **/
 .ron:hover + .spell{
     visibility: visible;
     transform: translateX(16vw);
 }
 
 
-
+/**Kodet av Linea **/
 /*Characters+ funacts-linea*/
 .funfacts {
     color:#000;
@@ -153,6 +161,7 @@ body{
     text-align: center;
 }
 
+/**Kodet av Tarpinderjot **/
 .ron {
     position: fixed;
     bottom: 0;
@@ -162,6 +171,7 @@ body{
     animation-delay: 4s;
 }
 
+/**Kodet av Tarpinderjot **/
 .deatheater {
     position: fixed;
     bottom: 0;
@@ -172,15 +182,18 @@ body{
     animation-delay: 4s;
 }
 
+/**Kodet av Linea **/
 .deatheater-funfact {
     left: 25%;
     bottom: 33%;
 }
 
+/**Kodet av Linea **/
 .deatheater:hover + .deatheater-funfact{
     visibility: visible;
 }
 
+/**Kodet av Tarpinderjot **/
 .hermonie {
     position: fixed;
     bottom: 5%;
@@ -191,15 +204,18 @@ body{
     animation-delay: 4s;
 }
 
+/**Kodet av Linea **/
 .hermonie-funfact {
     bottom: 35%;
     right: 12%;
 }
 
+/**Kodet av Linea **/
 .hermonie:hover + .hermonie-funfact{
     visibility: visible;
 }
 
+/**Kodet av Tarpinderjot **/
 .albus {
     height: 250px;
     position: absolute;
@@ -210,15 +226,18 @@ body{
     animation-delay: 4s;
 }
 
+/**Kodet av Linea **/
 .albus-funfact{
     left: 35%;
     top: 38%;
 }
 
+/**Kodet av Linea **/
 .albus:hover + .albus-funfact{
     visibility: visible;
 }
 
+/**Kodet av Tarpinderjot **/
 .hagrid {
     height: 200px;
     position: absolute;
@@ -229,15 +248,19 @@ body{
     animation-delay: 4s;
 }
 
+/**Kodet av Linea **/
 .hagrid-funfact {
     right: 32%;
     bottom: 35%;
 }
 
+/**Kodet av Linea **/
 .hagrid:hover + .hagrid-funfact {
     visibility: visible;
 }
 
+
+/**Kodet av Tarpinderjot**/
 /*Keyframes*/
 
 @keyframes broomFly {
@@ -291,19 +314,19 @@ body{
         0%{
             display: block;
             opacity: 1;
-            background-color: black
+            background-color:#000;
         }
     
         75% {
             display: block; 
             opacity: 1;
-            background-color: black
+            background-color: #000;
         }
     
         100%{
             opacity: 0;
             display: none;
-            background-color: black;
+            background-color: #000;
             visibility: visible;
         }
     }
