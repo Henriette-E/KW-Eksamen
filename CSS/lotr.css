@@ -158,7 +158,6 @@ body {
 
 .hobbit {
     position: absolute;
-    z-index: 1;
     animation: fadeIn 6s 1 ease-in-out;
 }
 
@@ -221,7 +220,6 @@ body {
     border-radius: 25px;
     height: 100px;
     width: 250px;
-    z-index: -1;
     visibility: hidden;
     font-family: Legofont;
     font-weight: bold;
