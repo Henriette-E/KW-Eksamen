@@ -1,4 +1,4 @@
-
+/*heihei*/ 
 
 body {
     margin: 0;
@@ -26,10 +26,6 @@ body {
   
 .btn:hover {
     opacity: 1;
-}
-
-#lotr-btn {
-    visibility: hidden;
 }
   
 /* Intro */
