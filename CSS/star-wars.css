@@ -141,24 +141,24 @@ body{
     width: 10%;
     right: -1%;
     top: 23%;
-    transform: scale(0.5);
-    animation: buttons 10s 1 forwards;
+    transform: scale(0.4);
+    animation: buttons 8s 1 forwards;
 }
 .lotr-button{
     position: absolute;
     width: 10%;
     right: -1%;
     top: 44%;
-    transform: scale(0.5);
-    animation: buttons 10s 1 forwards;
+    transform: scale(0.4);
+    animation: buttons 8s 1 forwards;
 }
 .mainpage-button{
     position: absolute;
     width: 10%;
     right: -1%;
     top: 33%;
-    transform: scale(0.5);
-    animation: buttons 10s 1 forwards;
+    transform: scale(0.4);
+    animation: buttons 8s 1 forwards;
 }
 
 
