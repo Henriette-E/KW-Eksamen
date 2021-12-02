@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drag testing</title>
+    <title>Mainpage</title>
     <link rel="stylesheet" href="/CSS/mainpage.css" type="text/css"/>
 </head>
 <body>
-    <div class="wrapper" tabindex="1">
-        <textarea style="height: 58.95vh; width: 25vw;"></textarea>
-        <div class="noteHeader"></div>
+    <div class="lego-background absolute">
+        <div class="background-lego1 absolute">
+            <div class="background-lego-dots">
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+            </div>
+            <div class="background-lego-brick"></div>
+        </div>
+
+        <div class="background-lego2 absolute">
+            <div class="background-lego-dots">
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+            </div>
+            <div class="background-lego-brick"></div>
+        </div>
+
+        <div class="background-lego3 absolute">
+            <div class="background-lego-dots">
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+                <div class="background-lego-dot"></div>
+            </div>
+            <div class="background-lego-brick"></div>
+        </div>
+    </div>
+
+    <div class="absolute drag-box-above-chest" tabindex="1">
+        <textarea style="height: 60vh; width: 15vw;"></textarea>
+        <div class="lego-header"></div>
         <div class="fullLego">
             <div class="lego-dots">
                 <div class="lego-dot"></div>
@@ -21,11 +53,26 @@
             <div class="lego-brick"></div>
         </div>
     </div>
-    <div class="wrapper" tabindex="2">
-        <textarea style="height: 58.95vh; width: 45vw;"></textarea>
-        <div class="noteHeader"></div>
+
+    <div class="absolute drag-box-above-chest" tabindex="2">
+        <textarea style="height: 50vh; width: 25vw;"></textarea>
+        <div class="lego-header"></div>
         <div class="fullLego">
             <div class="lego-dots">
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+                <div class="lego-dot"></div>
+            </div>
+            <div class="lego-brick"></div>
+        </div>  
+    </div>
+
+    <div class="absolute drag-box-above-chest" tabindex="3">
+        <textarea style="height: 60vh; width: 45vw;"></textarea>
+        <div class="lego-header"></div>
+        <div class="fullLego">
+            <div class="lego-dots">
+                <div class="lego-dot"></div>
                 <div class="lego-dot"></div>
                 <div class="lego-dot"></div>
                 <div class="lego-dot"></div>
@@ -34,8 +81,12 @@
             <div class="lego-brick"></div>
         </div>  
     </div>
-    <div class="linkText">HARRY POTTER</div>
 
+    <div class="link-text1">HARRY POTTER</div>
+    <div class="link-text2">STAR WARS</div>
+    <div class="link-text3">LORD OF THE RINGS</div>
+
+    <!-- A container for the toy box -->
     <div class="toy-box-wrapper absolute">
 
         <!-- The brown/wooden panel filling -->

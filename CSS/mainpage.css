@@ -1,23 +1,37 @@
+@font-face {
+    font-family: Legofont;
+    src: url(/Fonts/Legothick.ttf);
+}
+
+.drag-box-above-chest {
+    z-index: 3;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.z-index-to-hide-lego {
+    z-index: 5;
+}
+
 body {
     position: relative;
     background-color: lavender;
     background-size: cover;
     min-height: 100vh;  
     overflow: hidden;
+    margin: 0;
     }
     
-.wrapper {
-    position: absolute;
-}
-
 .fullLego {
-position: absolute;
-color: rgba(#000,.8);
-right: 0;
-transform: translateX(50%);
+    position: absolute;
+    color: rgba(#000,.8);
+    right: 0;
+    transform: translateX(50%);
 }
 
-.wrapper:focus{
+.drag-box-above-chest:focus{
     z-index: 999;
     border: red 5px solid;
 }
@@ -27,7 +41,7 @@ textarea {
     width: 500px;
 }
 
-.noteHeader {
+.lego-header {
     position: absolute;
     pointer-events: none;
     width: 20px;
@@ -49,9 +63,10 @@ textarea {
 
 .lego-dots {
     display: flex;
-    /* Same width as lego brick */
+    /* Same width as .lego-brick */
     width: 15vw;
     justify-content: space-evenly;
+    height: 1.3vh;
 }
 
 .lego-dot {
@@ -60,25 +75,92 @@ textarea {
     background-color: red;
 }
 
-.legoHider {
+.link-text1 {
     position: absolute;
-    top: 60vh;
-    left: 15vw;
-    background-color: lightblue;
-    width: 70vw;
-    height: 15vh;
-    z-index: 1000;
-}
-
-.linkText {
-    position: absolute;
-    color: gray;
+    color: lemonchiffon;
     top: 32vh;
-    left: 12vw;
-    font-size: xx-large;
+    left: 14vw;
+    font-family: Legofont;
+    font-size: 1.7vw;
+    z-index: 4;
 }
 
+.link-text2 {
+    position: absolute;
+    color: lemonchiffon;
+    top: 13vh;
+    left: 45vw;
+    font-family: Legofont;
+    font-size: 1.7vw;
+    z-index: 4;
+}
 
+.link-text3 {
+    position: absolute;
+    color: lemonchiffon;
+    top: 26vh;
+    left: 68.3vw;
+    font-family: Legofont;
+    font-size: 1.7vw;
+    color: lemonchiffon;
+    z-index: 4;
+}
+
+.lego-background {
+    background-color: lemonchiffon;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-lego1 {
+    top: 29vh;
+    left: 12vw;
+    position: absolute;
+    color: rgba(#000,.8);
+    right: 0; 
+    z-index: 3;
+}
+
+.background-lego2 {
+    left: 42vw;
+    top: 10vh;
+    position: absolute;
+    color: rgba(#000,.8);
+    right: 0; 
+}
+
+.background-lego3 {
+    left: 68vw;
+    top: 23vh;
+    position: absolute;
+    color: rgba(#000,.8);
+    right: 0; 
+    z-index: 3;
+}
+
+.background-lego-brick {
+    width: 15vw;
+    height: 6vh;
+    background-color: lemonchiffon;
+    border: 2px solid black;
+}
+
+.background-lego-dots {
+    display: flex;
+    /* Same width as .lego-brick */
+    width: 15vw;
+    justify-content: space-evenly;
+    height: 1.3vh;
+}
+
+.background-lego-dot {
+    width: 2vw;
+    height: 1.6vh;
+    background-color: lemonchiffon;
+    border-left: black 2px solid;
+    border-top: black 2px solid;
+    border-right: black 2px solid;
+}
 
 
 
@@ -89,19 +171,15 @@ textarea {
 .toy-box-wrapper{
     width: 800px;
     height: 800px;
-    background-color: lavender;
+    background-color: transparent;
     left: calc(50vw - 400px);
-    top: calc(70vh - 400px);
-    transform: scale(1);
-    
+    top: calc(60vh - 400px);
+    transform: scale(1.3);
+    z-index: 1;
 }
 
 .gold {
     background-color: gold;
-}
-
-.absolute {
-    position: absolute;
 }
 
 .bottom-left-line {
