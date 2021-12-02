@@ -3,6 +3,7 @@
     src: url(/Fonts/Legothick.ttf);
 }
 
+/* Henriette: */
 body {
     margin: 0;
     overflow: hidden;
@@ -13,7 +14,8 @@ body {
     cursor: url(../Images/lotr/sting-cursor.png), default;
 }
 
-/*Box for buttons*/
+/* Linea: */
+/* Box for buttons*/
 .button-container{
     position: absolute;
     right: 0%;
@@ -26,8 +28,6 @@ body {
     position: relative;
     text-decoration: #000;
 }
-
-
 
 /*text*/
 .links{
@@ -51,6 +51,8 @@ body {
 .link:hover{
     cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
 }
+
+/* Henriette: */
 
 /* Intro */
 
@@ -128,7 +130,6 @@ body {
 .nazgul {
     z-index: 2;
     height: 300px;
-    
 }
 
 #nazgul-1 {
@@ -239,6 +240,26 @@ body {
     right: 15%;
 }
 
+#gollum {
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    height: 150px;
+    opacity: 0;
+}
+
+#gollum:hover {
+    animation-name: visibility;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
+}
+
+@keyframes visibility {
+    from {opacity: 0;}
+    to {opacity: 0.8;}
+}
 /*Making elements clickable after intro*/
 
 @keyframes fadeIn {
@@ -246,6 +267,8 @@ body {
     97% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+/* Linea: */
 
 /*Funfact boxes*/
 
@@ -290,27 +313,6 @@ body {
 
 #sam:hover + #sam-text {
     visibility: visible;
-}
-
-#gollum {
-    position: absolute;
-    top: 28%;
-    left: 40%;
-    height: 150px;
-    opacity: 0;
-}
-
-#gollum:hover {
-    animation-name: visibility;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
-}
-
-@keyframes visibility {
-    from {opacity: 0;}
-    to {opacity: 0.8;}
 }
 
 /*Lego logo*/ 
