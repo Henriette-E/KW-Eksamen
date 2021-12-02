@@ -141,10 +141,10 @@ body{
     background-color: #667a62;
     margin: 0;
     width: 260px;
-    height: 55px;
+    height: 60px;
     position: absolute;
     visibility: hidden;
-    font-family: Legofont;
+    font-family: didot, sans-serif;
     font-weight: bold;
     text-align: center;
 }

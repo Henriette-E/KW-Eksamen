@@ -219,8 +219,7 @@ body {
     border-radius: 20px;
     height: 90px;
     width: 250px;
-    font-family: Legofont;
-    font-weight: bold;
+    font-family: didot, sans-serif;
     visibility: hidden;
     text-align: center;
 }
@@ -248,12 +247,33 @@ body {
 
 #sam-text {
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 37%;
+    left: 38%;
 }
 
 #sam:hover + #sam-text {
     visibility: visible;
+}
+
+#gollum {
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    height: 150px;
+    opacity: 0;
+}
+
+#gollum:hover {
+    animation-name: visibility;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
+}
+
+@keyframes visibility {
+    from {opacity: 0;}
+    to {opacity: 0.8;}
 }
 
 /* Lego logo*/ 
