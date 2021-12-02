@@ -213,7 +213,7 @@ body {
 
 /* LINEA: Funfact bokser */
 
-.funfact-div {
+.funfact-text {
     position: absolute;
     border: aquamarine 2px solid ;
     background-color: cadetblue;
@@ -222,6 +222,8 @@ body {
     width: 250px;
     z-index: -1;
     visibility: hidden;
+    font-family: Legofont;
+    font-weight: bold;
 }
 
 #merry-funfact {
@@ -242,7 +244,6 @@ body {
     visibility: visible;
 }
 
-
 #sam-funfact {
     top: 50%;
     left: 35%;
@@ -250,9 +251,4 @@ body {
 
 #sam:hover + #sam-funfact {
     visibility: visible;
-}
-
-.funfact-text {
-    font-family: Legofont;
-    font-weight: bold;
 }
