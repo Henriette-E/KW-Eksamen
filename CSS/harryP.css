@@ -128,15 +128,23 @@ body{
 
 
 /* Characters+ Facts */
+@font-face {
+    font-family: Legofont;
+    src: url(/Fonts/Legothick.ttf);
+}
+
 .funfacts {
     color: black;
-    border-radius: 5px;
-    border: 2.5px solid #530404;
-    background-color: #eee5c1;
+    border-radius: 9px;
+    border: 3px solid #04310f;
+    background-color: #496943;
     margin: 0;
-    width: 250px;
+    width: 300px;
+    height: 45px;
     position: absolute;
     visibility: hidden;
+    font-family: Legofont;
+    font-weight: bold;
 }
 
 .ron {
