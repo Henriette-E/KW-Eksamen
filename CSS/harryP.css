@@ -1,4 +1,4 @@
-/**Kodet av Tarpinderjot **/
+/**Coded by Tarpinderjot**/
 body{
     position: relative;
     margin: 0;
@@ -10,8 +10,7 @@ body{
     cursor: url(../Images/harryPImages/cursor2.png), auto;
 }
 
-/**Kodet av Tarpinderjot **/
-/**Fade in video**/
+/**Fade in video: Tarpinderjot **/
 .fullscreen-bg__video {
     animation: smokeRemove 3s 1.5s forwards;
     position: absolute;
@@ -24,7 +23,6 @@ body{
     z-index: 5;
 }
  
-/**Kodet av Tarpinderjot **/
 .fullscreen-bg {
     overflow: hidden;
     position: fixed;
@@ -38,20 +36,7 @@ body{
     }
 
 
-/**Kodet av Tarpinderjot **/
-/*Background Image*/
-.mainDiv {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    background-image: url(../harryPImages/uhh.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-/**Kodet av Tarpinderjot **/
-/*Title*/
+/*Logo: Tarpinderjot*/
 .logo{
     padding: 0;
     height: 140px;
@@ -64,8 +49,7 @@ body{
     
 }
 
-/**Kodet av Linea **/
-/*Box for buttons*/
+/**Box for buttons: Linea **/
 .button-container{
     width: 160px;
     right: 0%;
@@ -85,25 +69,22 @@ body{
 .links{
     position: absolute;
     top: 30%;
-    text-decoration: #ffffff;
-    color:#000000;
+    color: #ffffff;
     text-transform: none;
     opacity: 0;
     font-family: didot, sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /*Hover effect*/
 .links:hover{
     opacity: 1;
-    background-color: #ffffff;
     border-radius: 25px;
     padding: 5px 10px;
 }
 
-/**Kodet av Tarpinderjot **/
-/*Animations*/
+/*Animations: Tarpinderjot*/
 .snitch {
     height: 50px;
     position: absolute;
@@ -112,7 +93,7 @@ body{
     visibility: hidden;
 }
 
-/**Kodet av Tarpinderjot **/
+
 .harryBroom {
     position: fixed;
     top: 35%;
@@ -123,7 +104,7 @@ body{
     visibility: hidden;
 }
 
-/**Kodet av Tarpinderjot **/
+
 .spell {
     position: fixed;
     bottom: 10%;
@@ -137,15 +118,14 @@ body{
     visibility: hidden;
 }
 
-/**Kodet av Tarpinderjot **/
+
 .ron:hover + .spell{
     visibility: visible;
     transform: translateX(16vw);
 }
 
 
-/**Kodet av Linea **/
-/*Characters+ funacts-linea*/
+/*Characters+funfact: Linea*/
 .funfacts {
     color:#000000;
     border-radius: 20px;
@@ -161,7 +141,7 @@ body{
     text-align: center;
 }
 
-/**Kodet av Tarpinderjot **/
+/*Tarpinderjot:*/
 .ron {
     position: fixed;
     bottom: 0;
@@ -171,7 +151,6 @@ body{
     animation-delay: 4s;
 }
 
-/**Kodet av Tarpinderjot **/
 .deatheater {
     position: fixed;
     bottom: 0;
@@ -182,18 +161,17 @@ body{
     animation-delay: 4s;
 }
 
-/**Kodet av Linea **/
+/*Linea:*/
 .deatheater-funfact {
     left: 25%;
     bottom: 33%;
 }
 
-/**Kodet av Linea **/
 .deatheater:hover + .deatheater-funfact{
     visibility: visible;
 }
 
-/**Kodet av Tarpinderjot **/
+/*Tarpinderjot:*/
 .hermonie {
     position: fixed;
     bottom: 5%;
@@ -204,18 +182,18 @@ body{
     animation-delay: 4s;
 }
 
-/**Kodet av Linea **/
+/*Linea:*/
 .hermonie-funfact {
     bottom: 35%;
     right: 12%;
 }
 
-/**Kodet av Linea **/
+
 .hermonie:hover + .hermonie-funfact{
     visibility: visible;
 }
 
-/**Kodet av Tarpinderjot **/
+/*Tarpinderjot:*/
 .albus {
     height: 250px;
     position: absolute;
@@ -226,18 +204,18 @@ body{
     animation-delay: 4s;
 }
 
-/**Kodet av Linea **/
+/*Linea:*/
 .albus-funfact{
     left: 35%;
     top: 38%;
 }
 
-/**Kodet av Linea **/
+
 .albus:hover + .albus-funfact{
     visibility: visible;
 }
 
-/**Kodet av Tarpinderjot **/
+/*Tarpinderjot:*/
 .hagrid {
     height: 200px;
     position: absolute;
@@ -248,20 +226,19 @@ body{
     animation-delay: 4s;
 }
 
-/**Kodet av Linea **/
+/*Coded by Linea:*/
 .hagrid-funfact {
     right: 32%;
     bottom: 35%;
 }
 
-/**Kodet av Linea **/
+
 .hagrid:hover + .hagrid-funfact {
     visibility: visible;
 }
 
 
-/**Kodet av Tarpinderjot**/
-/*Keyframes*/
+/*keyframes: Tarpinderjot*/
 
 @keyframes broomFly {
      

@@ -1,4 +1,4 @@
-/*Main page*/
+/*Main page: Noman */
 html{
     cursor: url(/images/star-wars/red_Lightsaber-min.png),auto;
 }
@@ -17,7 +17,7 @@ body{
     z-index: -1;
    
 }
-/*Intro-page*/
+/*Intro-page: Noman*/
 .intro-bg {
     width: 100%;
     height: 100%;
@@ -35,7 +35,7 @@ body{
     animation-iteration-count: 1;
     
 }
-/*Figures*/
+/*Figures: Noman */
 
 #trooper{
     position: absolute;
@@ -51,7 +51,7 @@ body{
     height: 5px;
     width: 30px;
     border-radius: 15px;
-    background-color: #30d5c8;
+    background-color: turquoise;
     visibility: hidden;
     animation: shooting 0.5s infinite ease-in-out;
     z-index: -1;
@@ -135,7 +135,7 @@ body{
 
 }
 
-/*Box for buttons-Linea*/
+/*Box for buttons: Linea*/
 .button-container{
     position: absolute;
     right: 0%;
@@ -145,25 +145,25 @@ body{
     
 }
 
-/*Buttons-linea*/
+/*Buttons: linea*/
 .button{
     position: relative;
-    text-decoration: #000000;
+    text-decoration: #000;
 }
 
-/*Text-linea-linea*/
+/*Tex: linea*/
 .links{
     position: absolute;
     top: 15%;
-    text-decoration: #ffff;
-    color: #ffff;
+    text-decoration: #ffffff;
+    color: #ffffff;
     text-transform: none;
     opacity: 0;
     font-family: didot, sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
 }
-/*Hover effect-linea*/
+/*Hover effect: linea*/
 .links:hover{
     opacity: 1;
     border-radius: 25px;
@@ -173,10 +173,10 @@ body{
 
 /*Funfact*/
 .funfact1{  
-    color:#000000;
+    color:#000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
-    background-color: #bdbec0;               /*This funfact box is placed over Ray og R2D2 - linea*/
+    background-color: #bdbec0;        /*This funfact box is placed over Ray og R2D2: linea*/
     margin: 0;
     width: 250px;
     text-align: center;
@@ -191,14 +191,14 @@ body{
     visibility: visible;
 }
 .funfact2{   
-    color:#000000;
+    color:#000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
     background-color: #bdbec0;
     position: absolute;
     text-align: center;
     top: 60%;
-    right: 1%;              /*This funfact box is placed over Mainpage button - Linea*/
+    right: 1%;              /*This funfact box is placed over Mainpage button: Linea*/
     margin: 0;
     width: 250px;
     font-family: didot, sans-serif;
@@ -208,7 +208,7 @@ body{
     opacity: 0;
     animation: fadein 13s 1 forwards;
 }
-.funfact3{                 /*This funfact box is placed over tusken - Linea*/
+.funfact3{                 /*This funfact box is placed over tusken: Linea*/
     margin: 0;
     width: 250px;
     position: absolute;
@@ -216,7 +216,7 @@ body{
     right: 25%;
     text-align: center;
     visibility: hidden; 
-    color:#000000;
+    color:#000;
     border-radius: 20px;
     border: 3px solid #5a5c5e;
     background-color: #bdbec0;
@@ -234,7 +234,7 @@ body{
     transform: scale(1.5);
 }
 
-/*Hover-animations*/
+/*Hover-animations: Noman */
 
 #darth-vader:hover + #c-3po{
     visibility: visible;
@@ -261,7 +261,7 @@ body{
     transform: scale(1);
 }
 
-/*Animations*/
+/*Animations: Noman */
 @keyframes fadeout{                                         /*Animation for the intro-page*/
     0% {display: block; opacity: 1; transform: scale(2);}
     75%{display: block; opacity: 1; transform: scale(1);}
