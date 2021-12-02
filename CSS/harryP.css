@@ -60,8 +60,31 @@ body{
     
 }
 
-/*LINKS/Button*/
+/*BOX FOR BUTTONS*/
+.button.container{
+    width: 145px;
+}
 
+/*BUTTONS*/
+.button{
+    position: relative;
+    text-decoration: #000;
+}
+
+/*TEXT*/
+.links{
+    position: absolute;
+    top: 30%;
+    text-decoration: brown;
+    color: #000;
+    text-transform: none;
+    opacity: 0;
+}
+
+/*HOVER EFFEKT*/
+.links:hover{
+    opacity: 2;
+}
 
 /*ANIMATIONS */
 
