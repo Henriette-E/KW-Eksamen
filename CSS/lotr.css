@@ -219,7 +219,7 @@ body {
     border-radius: 20px;
     height: 90px;
     width: 250px;
-    font-family: Legofont;
+    font-family: trattatello, fantasy;
     font-weight: bold;
     visibility: hidden;
     text-align: center;
@@ -248,8 +248,8 @@ body {
 
 #sam-text {
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 37%;
+    left: 38%;
 }
 
 #sam:hover + #sam-text {
