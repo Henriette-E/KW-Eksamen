@@ -155,7 +155,7 @@ body{
 /*Text*/
 .links{
     position: absolute;
-    top: 30%;
+    top: 15%;
     text-decoration: rgb(255, 255, 255);
     color: whitesmoke;
     text-transform: none;
@@ -163,6 +163,12 @@ body{
     font-family: didot, sans-serif;
     font-weight: bold;
     font-size: 20px;
+}
+/*Hover effect*/
+.links:hover{
+    opacity: 1;
+    border-radius: 25px;
+    padding: 5px 10px;
 }
 
 
