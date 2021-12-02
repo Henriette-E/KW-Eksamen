@@ -254,6 +254,27 @@ body {
     visibility: visible;
 }
 
+#gollum {
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    height: 150px;
+    opacity: 0;
+}
+
+#gollum:hover {
+    animation-name: visibility;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
+}
+
+@keyframes visibility {
+    from {opacity: 0;}
+    to {opacity: 0.8;}
+}
+
 /* Lego logo*/ 
 
 .logo{
