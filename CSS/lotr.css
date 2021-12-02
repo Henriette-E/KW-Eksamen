@@ -221,35 +221,36 @@ body {
     width: 250px;
     font-family: Legofont;
     font-weight: bold;
+    visibility: hidden;
 }
 
-#merry-funfact {
+#merry-text {
     position: absolute;
     top: 20%;
     right: 15%;
 }
 
-#merry:hover + #merry-funfact {
+#merry:hover + #merry-text {
     visibility: visible;
 }
 
-#pippin-funfact {
+#pippin-text {
     position: absolute;
     top: 40%;
     right: 2%;
 }
 
-#pippin:hover + #pippin-funfact {
+#pippin:hover + #pippin-text {
     visibility: visible;
 }
 
-#sam-funfact {
+#sam-text {
     position: absolute;
     top: 50%;
     left: 35%;
 }
 
-#sam:hover + #sam-funfact {
+#sam:hover + #sam-text {
     visibility: visible;
 }
 
