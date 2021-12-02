@@ -13,7 +13,7 @@ body{
     position: absolute;
     width: 20%;
     top: 0%;
-    right: 43%;
+    right: 40%;
     z-index: -1;
    
 }
@@ -144,6 +144,7 @@ body{
     top: 24%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
+    
 }
 .lotr-button{
     position: absolute;
@@ -152,6 +153,7 @@ body{
     top: 44%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
+    z-index: -1;
 }
 .mainpage-button{
     position: absolute;
@@ -160,6 +162,7 @@ body{
     top: 33%;
     transform: scale(0.4);
     animation: buttons 8s 1 forwards;
+    z-index: -1;
 }
 
 
