@@ -220,6 +220,22 @@ body {
     border-radius: 25px;
     height: 100px;
     width: 250px;
+    z-index: -1;
+}
+
+#merry-funfact {
+    top: 20%;
+    right: 15%;
+}
+
+#pippin-funfact {
+    top: 40%;
+    right: 2%;
+}
+
+#sam-funfact {
+    top: 50%;
+    left: 35%;
 }
 
 .funfact-text {
