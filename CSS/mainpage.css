@@ -33,17 +33,16 @@ body {
     position: absolute;
     color: rgba(#000,.8);
     right: 0;
-    transform: translateX(50%);
-}
-
-.drag-box-above-chest:focus{
-    z-index: 999;
-    border: red 5px solid;
+    transform: translateX(47%);
 }
 
 textarea {
     opacity: 0;
     width: 500px;
+}
+
+textarea:hover {
+    cursor: default;
 }
 
 .lego-header {
@@ -226,6 +225,43 @@ a {
     z-index: 7;
 }
 
+@keyframes move-box {
+    10% {
+        opacity: 1;
+        top: 50vh;
+        left: 20vw;
+    }
+    55% {
+        left: 63.5vw;
+        top: 48.5vh;
+        transform: scale(1);
+    }
+    65% {
+        transform: scale(0.8);
+        left: 63.5vw;
+        top: 48.5vh;
+    }
+    95% {
+        transform: scale(0.7);
+        top: 18vh;
+        left: 76.5vw;
+    }
+    100% {
+        opacity: 1;
+        top: 18vh;
+        left: 76.5vw;
+    }
+}
+
+.intro-cursor {
+    position: absolute;
+    z-index: 10;
+    width: 4vw;
+    animation: move-box 3s linear;
+    opacity: 0;
+    top: 50vh;
+    left: 20vw;
+}
 
 
 
