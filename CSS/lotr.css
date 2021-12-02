@@ -13,7 +13,7 @@ body {
     cursor: url(../Images/lotr/sting-cursor.png), default;
 }
 
-/*BOX FOR BUTTONS*/
+/*Box for buttons*/
 .button-container{
     position: absolute;
     right: 0%;
@@ -21,7 +21,7 @@ body {
     width: 160px;
 }
 
-/*BUTTONS*/
+/*buttons*/
 .button{
     position: relative;
     text-decoration: #000;
@@ -29,7 +29,7 @@ body {
 
 
 
-/*TEXT*/
+/*text*/
 .links{
     position: absolute;
     top: 30%;
@@ -42,7 +42,7 @@ body {
     font-size: 17px;
 }
 
-/*HOVER EFFEKT*/
+/*hover effect*/
 .links:hover{
     opacity: 1;
     cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
@@ -114,7 +114,7 @@ body {
     100% {opacity: 0; display: none;}
 }
 
-/* Main Scene */
+/*Main Scene*/
 
 #campfire {
     position: absolute;
@@ -239,7 +239,7 @@ body {
     right: 15%;
 }
 
-/* making elements clickable after intro */
+/*Making elements clickable after intro*/
 
 @keyframes fadeIn {
     0% {opacity: 0;}
@@ -247,7 +247,7 @@ body {
     100% {opacity: 1;}
 }
 
-/* LINEA: Funfact bokser */
+/*Funfact bokser*/
 
 .funfact-text {
     border: 3px solid #1b1b1b;
@@ -312,7 +312,7 @@ body {
     to {opacity: 0.8;}
 }
 
-/* Lego logo*/ 
+/*Lego logo*/ 
 
 .logo{
     position: absolute;
