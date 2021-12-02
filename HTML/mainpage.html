@@ -41,50 +41,60 @@
     </div>
 
     <div class="absolute drag-box-above-chest" tabindex="1">
-        <textarea style="height: 60vh; width: 15vw;"></textarea>
+        <textarea class="lego1-start-pos"></textarea>
         <div class="lego-header"></div>
         <div class="fullLego">
             <div class="lego-dots lego1-width">
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
+                <div class="lego-dot lego1-color"></div>
+                <div class="lego-dot lego1-color"></div>
+                <div class="lego-dot lego1-color"></div>
+                <div class="lego-dot lego1-color"></div>
             </div>
-            <div class="lego-brick lego1-width"></div>
+            <div class="lego-brick lego1-width lego1-color">
+                <a href="/HTML/lotr.html" style="display: block; height: 100%; z-index: 16;"></a>
+            </div>
         </div>
     </div>
 
-    <div class="absolute drag-box-above-chest" tabindex="2">
-        <textarea style="height: 50vh; width: 25vw;"></textarea>
+    <div class="absolute drag-box-above-chest lego2-on-top-at-start" tabindex="2">
+        <textarea class="lego2-start-pos"></textarea>
         <div class="lego-header"></div>
         <div class="fullLego">
             <div class="lego-dots lego2-width">
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
+                <div class="lego-dot lego2-color"></div>
+                <div class="lego-dot lego2-color"></div>
+                <div class="lego-dot lego2-color"></div>
             </div>
-            <div class="lego-brick lego2-width"></div>
+            <div class="lego-brick lego2-width lego2-color">
+                <a href="/HTML/lotr.html" style="display: block; height: 100%;"></a>
+            </div>
         </div>  
     </div>
 
     <div class="absolute drag-box-above-chest" tabindex="3">
-        <textarea style="height: 60vh; width: -445vw;"></textarea>
+        <textarea class="lego3-start-pos"></textarea>
         <div class="lego-header"></div>
         <div class="fullLego">
             <div class="lego-dots lego3-width">
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
-                <div class="lego-dot"></div>
+                <div class="lego-dot lego3-color"></div>
+                <div class="lego-dot lego3-color"></div>
+                <div class="lego-dot lego3-color"></div>
+                <div class="lego-dot lego3-color"></div>
+                <div class="lego-dot lego3-color"></div>
             </div>
-            <div class="lego-brick lego3-width"></div>
+            <div class="lego-brick lego3-width lego3-color">
+                <a href="/HTML/lotr.html" style="display: block; height: 100%;"></a>
+            </div>
         </div>  
     </div>
 
-    <a href="/HTML/potter.html" class="link-text1">HARRY POTTER</a>
-    <a href="/HTML/star-wars.html" class="link-text2">STAR WARS</a>
-    <a href="/HTML/lotr.html" class="link-text3">LORD OF THE RINGS</a>
+    <div class="block-lego1-at-start lego1-width"></div>
+    <div class="block-lego2-at-start lego2-width"></div>
+    <div class="block-lego3-at-start lego3-width"></div>
+
+    <div href="/HTML/potter.html" class="link-text1 no-pointer-events">HARRY POTTER</div>
+    <div href="/HTML/star-wars.html" class="link-text2 no-pointer-events">STAR WARS</div>
+    <div class="link-text3 no-pointer-events">LORD OF THE RINGS</div>
 
     <!-- A container for the toy box -->
     <div class="toy-box-wrapper absolute">
