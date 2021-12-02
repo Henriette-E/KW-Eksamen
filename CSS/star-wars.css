@@ -173,8 +173,6 @@ body{
     position: absolute;
     bottom: 35%;
     right: 60%;
-    color: black;
-    background-color: #fff;
     visibility: hidden;
 }
 #ray:hover + .funfact1{
