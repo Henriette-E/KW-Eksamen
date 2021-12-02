@@ -30,7 +30,7 @@ body {
     
 .fullLego {
     position: absolute;
-    color: rgba(#000,.8);
+    color: rgba(#000000,.8);
     right: 0;
     transform: translateX(47%);
 }
@@ -53,7 +53,7 @@ textarea:hover {
     margin-bottom: 7px;
     border-radius: 50%;
     height: 20px;
-    background-color: #000;
+    background-color: #000000;
     right: 0;
     transform: translate(100px, -20px);
 }
@@ -81,15 +81,15 @@ textarea:hover {
 }
 
 .lego1-color {
-    background-color: rgb(131, 129, 129);
+    background-color: #bbbbbb;
 }
 
 .lego2-color {
-    background-color: rgb(27, 26, 26);
+    background-color: #333333;
 }
 
 .lego3-color {
-    background-color: rgb(54, 119, 54);
+    background-color: #337b24;
 }
 
 .lego-dot {
@@ -99,7 +99,7 @@ textarea:hover {
 
 .link-text1 {
     position: absolute;
-    color: lemonchiffon;
+    color: #e8ded1;
     top: 32vh;
     left: 14vw;
     font-family: Legofont;
@@ -109,7 +109,7 @@ textarea:hover {
 
 .link-text2 {
     position: absolute;
-    color: lemonchiffon;
+    color: #e8ded1;
     top: 13vh;
     left: 43vw;
     font-family: Legofont;
@@ -119,17 +119,17 @@ textarea:hover {
 
 .link-text3 {
     position: absolute;
-    color: lemonchiffon;
+    color: #e8ded1;
     top: 26vh;
     left: 70.2vw;
     font-family: Legofont;
     font-size: 1.7vw;
-    color: lemonchiffon;
+    color: #e8ded1;
     z-index: 4;
 }
 
 .lego-background {
-    background-color: lemonchiffon;
+    background-color: #e8ded1;
     height: 100vh;
     width: 100vw;
 }
@@ -138,7 +138,7 @@ textarea:hover {
     top: 29vh;
     left: 12vw;
     position: absolute;
-    color: rgba(#000,.8);
+    color: rgba(#000000,.8);
     right: 0; 
 }
 
@@ -146,7 +146,7 @@ textarea:hover {
     left: 42vw;
     top: 10vh;
     position: absolute;
-    color: rgba(#000,.8);
+    color: rgba(#000000,.8);
     right: 0; 
 }
 
@@ -154,14 +154,14 @@ textarea:hover {
     left: 68vw;
     top: 23vh;
     position: absolute;
-    color: rgba(#000,.8);
+    color: rgba(#000000,.8);
     right: 0; 
 }
 
 .background-lego-brick {
     height: 6vh;
-    background-color: lemonchiffon;
-    border: 2px solid black;
+    background-color: #e8ded1;
+    border: 2px solid #000000;
 }
 
 .background-lego-dots {
@@ -173,10 +173,10 @@ textarea:hover {
 .background-lego-dot {
     width: 2vw;
     height: 1.6vh;
-    background-color: lemonchiffon;
-    border-left: black 2px solid;
-    border-top: black 2px solid;
-    border-right: black 2px solid;
+    background-color: #e8ded1;
+    border-left: #000000 2px solid;
+    border-top: #000000 2px solid;
+    border-right:  #000000 2px solid;
 }
 
 .block-lego1-at-start {
@@ -278,7 +278,7 @@ a {
 }
 
 .gold {
-    background-color: gold;
+    background-color: #ffd700;
 }
 
 .bottom-left-line {
@@ -359,7 +359,7 @@ a {
     width: 220px; 
     height: 100px;  
     border: solid 20px;
-    border-color: gold transparent transparent transparent;
+    border-color: #ffd700 transparent transparent transparent;
     border-radius: 100%/250px 250px 0 0;
     transform: rotate(-90deg);
 }
@@ -403,7 +403,7 @@ a {
     height: 0;
     border: 15px solid transparent;
     border-top: 0;
-    border-bottom: 30px solid rgb(104, 75, 2);   
+    border-bottom: 30px solid #8a4c00;   
     top: 457px;
     left: 562px;
     transform: rotate(-10deg);
@@ -412,7 +412,7 @@ a {
 .keyhole-circle {
     width: 25px;
     height: 25px;
-    background-color: rgb(104, 75, 2);;
+    background-color: #8a4c00;
     border-radius: 100%;
     top: 447px;
     left: 562px;
@@ -421,7 +421,7 @@ a {
 
 .bottom-left-panel {
     width: 170px;
-    border-bottom: 210px solid rgb(214, 159, 87);
+    border-bottom: 210px solid #ffc580;
     border-left: 0px solid transparent;
     border-right: 60px solid transparent;
     transform: rotate(10deg) scale(-1, -1);
@@ -432,7 +432,7 @@ a {
 
 .bottom-right-panel1 {
     width: 170px;
-    border-bottom: 250px solid rgb(214, 159, 87);
+    border-bottom: 250px solid #dfaf74;
     border-left: 0px solid transparent;
     border-right: 25px solid transparent;
     transform: rotate(76deg);
@@ -443,7 +443,7 @@ a {
 
 .bottom-right-panel2 {
     width: 70px;
-    border-bottom: 160px solid rgb(214, 159, 87);
+    border-bottom: 160px solid #dfaf74;
     border-left: 60px solid transparent;
     border-right: 0px solid transparent;
     transform: rotate(-14deg) scale(-1,-1);
@@ -457,7 +457,7 @@ a {
     left: 485px;
     border-top: 45px solid transparent;
     border-bottom: 45px solid transparent;
-    border-left: 200px solid rgb(214, 159, 87);
+    border-left: 200px solid #dfaf74;
     transform: rotate(-2deg);
     z-index: -5;
 }
@@ -467,7 +467,7 @@ a {
     left: 225px;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    border-left: 200px solid rgb(214, 159, 87);
+    border-left: 200px solid #dfaf74;
     transform: scale(-1, -1);
     z-index: -5;
 }
@@ -477,7 +477,7 @@ a {
     width: 80px;
     top: 365px;
     left: 415px;
-    background-color: rgb(214, 159, 87);
+    background-color: #dfaf74;
     transform: rotate(-14deg);
     z-index: -5;
     opacity: 1;
@@ -486,7 +486,7 @@ a {
 .inside-panel-line {
     width: 80px;
     height: 5px;
-    background-color: rgb(173, 128, 69);
+    background-color: #b68c59;
     transform: rotate(-89deg);
     top: 396px;
     left: 445px;
@@ -495,7 +495,7 @@ a {
 
 .lid-panel-mid {
     width: 200px;
-    border-bottom: 290px solid rgb(214, 159, 87);
+    border-bottom: 290px solid #dfaf74;
     border-left: 10px solid transparent;
     border-right: 20px solid transparent;
     transform: rotate(84deg);
@@ -510,8 +510,8 @@ a {
     width: 220px; 
     height: 100px;  
     border: solid 20px;
-    background-color: rgb(214, 159, 87);
-    border-color: gold transparent transparent transparent;
+    background-color: #dfaf74;
+    border-color: #ffd700 transparent transparent transparent;
     border-radius: 100%/250px 250px 0 0;
     transform: rotate(-90deg);
     z-index: -5;
@@ -523,7 +523,7 @@ a {
     width: 173px; 
     height: 80px;  
     border: solid 5px;
-    border-color: rgb(173, 128, 69) transparent transparent transparent;
+    border-color: #b68c59 transparent transparent transparent;
     border-radius: 100%/200px 200px 0 0;
     transform: rotate(-91deg);
 }
