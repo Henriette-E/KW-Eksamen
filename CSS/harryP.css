@@ -62,8 +62,9 @@ body{
 }
 
 /*BOX FOR BUTTONS*/
-.button.container{
-    width: 145px;
+.button-container{
+    width: 160px;
+    right: 0%;
 }
 
 /*BUTTONS*/
