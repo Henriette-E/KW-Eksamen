@@ -1,4 +1,7 @@
-/*heihei*/ 
+@font-face {
+    font-family: Legofont;
+    src: url(/Fonts/Legothick.ttf);
+}
 
 body {
     margin: 0;
@@ -210,3 +213,16 @@ body {
 
 /* LINEA: Funfact bokser */
 
+.funfact-div {
+    position: absolute;
+    border: aquamarine 2px solid ;
+    background-color: cadetblue;
+    border-radius: 25px;
+    height: 100px;
+    width: 250px;
+}
+
+.funfact-text {
+    font-family: Legofont;
+    font-weight: bold;
+}
