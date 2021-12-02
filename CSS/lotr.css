@@ -15,19 +15,33 @@ body {
 
 /* Menu sidebar LINEA: */
 
-.menu-bar {
-    position: absolute;
-    z-index: 5;
-    right: 0;
-  }
-  
-.btn {
-    width: 100px;
-    height: auto;
-    opacity: 0.85;
+/*BOX FOR BUTTONS*/
+.button.container{
+    width: 145px;
 }
-  
-.btn:hover {
+
+/*BUTTONS*/
+.button{
+    position: relative;
+    text-decoration: #000;
+    
+}
+
+/*TEXT*/
+.links{
+    position: absolute;
+    top: 30%;
+    text-decoration: brown;
+    color: whitesmoke;
+    text-transform: none;
+    opacity: 0;
+    font-family: didot, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*HOVER EFFEKT*/
+.links:hover{
     opacity: 1;
 }
   
