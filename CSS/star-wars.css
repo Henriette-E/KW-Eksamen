@@ -11,10 +11,11 @@ body{
 }
 #logo{
     position: absolute;
-    width: 10%;
-    top: 10%;
-    right: 3%;
-    animation: pulse 2s infinite;
+    width: 20%;
+    top: 0%;
+    right: 43%;
+    z-index: -1;
+   
 }
 /* INTRO-PAGE */
 .intro-bg {
