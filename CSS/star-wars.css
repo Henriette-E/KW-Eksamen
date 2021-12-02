@@ -137,33 +137,7 @@ body{
 
 
 /* knapper for å komme til en ny side */
-.mainpage-button{
-    position: absolute;
-    width: 10%;
-    right: 1%;
-    top: 23%;
-    transform: scale(0.4);
-    animation: fadein 8s 1 forwards;
-    
-}
-.lotr-button{
-    position: absolute;
-    width: 10%;
-    right: -1%;
-    top: 44%;
-    transform: scale(0.4);
-    animation: fadein 8s 1 forwards;
-   
-}
-.hp-button{
-    position: absolute;
-    width: 10%;
-    right: -1%;
-    top: 33%;
-    transform: scale(0.4);
-    animation: fadein 8s 1 forwards;
-    
-}
+
 
 /* funfact */
 .funfact1{  
