@@ -78,9 +78,12 @@ body{
     position: absolute;
     top: 30%;
     text-decoration: brown;
-    color: #fff;
+    color: rgb(231, 231, 186);
     text-transform: none;
     opacity: 0;
+    font-family: didot, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 /*HOVER EFFEKT*/
@@ -129,13 +132,8 @@ body{
 
 
 /* Characters+ Facts */
-@font-face {
-    font-family: Legofont;
-    src: url(/Fonts/Legothick.ttf);
-}
-
 .funfacts {
-    color: #0000;
+    color: rgb(231, 231, 186);
     border-radius: 20px;
     border: 3px solid #04310f;
     background-color: #667a62;
