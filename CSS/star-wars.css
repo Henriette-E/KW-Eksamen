@@ -11,10 +11,11 @@ body{
 }
 #logo{
     position: absolute;
-    width: 10%;
-    top: 10%;
-    right: 3%;
-    animation: pulse 2s infinite;
+    width: 30%;
+    top: 0%;
+    right: 40%;
+    z-index: -1;
+   
 }
 /* INTRO-PAGE */
 .intro-bg {
@@ -34,7 +35,6 @@ body{
     animation-iteration-count: 1;
     
 }
-
 /* Figures */
 
 #trooper{
@@ -76,7 +76,7 @@ body{
     width: 7%;
     bottom: 2%;
     right: 15%;
-    animation: fadein 5s 1 ease-in-out;    
+    animation: fadein 4.2s 1 ease-in-out;    
 }
 #c-3po{
     position: absolute;
@@ -92,14 +92,15 @@ body{
     width: 4%;
     left: 30%;
     margin-top: 35%;
-    z-index: -1;
+    animation: fadein 4.2s 1;
 }
 #tusken{
     position: absolute;
     width: 4%;
     bottom: 20%;
     right: 30%;
-    z-index: -1;
+    animation: fadein 13s 1;
+   
 }
 #trooper-2{
     position: absolute;
@@ -136,86 +137,86 @@ body{
 
 
 /* knapper for å komme til en ny side */
-.hp-button{
+.mainpage-button{
     position: absolute;
-    width: 5%;
+    width: 10%;
     right: 1%;
     top: 23%;
-    transform: scale(0.5);
-    animation: buttons 10s 1 forwards;
+    transform: scale(0.4);
+    animation: fadein 8s 1 forwards;
+    
 }
 .lotr-button{
     position: absolute;
     width: 10%;
-    right: -2%;
-    top: 40%;
-    transform: scale(0.5);
-    animation: buttons 10s 1 forwards;
+    right: -1%;
+    top: 44%;
+    transform: scale(0.4);
+    animation: fadein 8s 1 forwards;
+   
 }
-.mainpage-button{
+.hp-button{
     position: absolute;
-    width: 5%;
-    right: 0.5%;
+    width: 10%;
+    right: -1%;
     top: 33%;
-    transform: scale(0.5);
-    animation: buttons 10s 1 forwards;
+    transform: scale(0.4);
+    animation: fadein 8s 1 forwards;
+    
 }
-
-
-
-
 
 /* funfact */
 .funfact1{                 /* Denne funfact boksen er plassert over Ray og R2D2 */
     margin: 0;
     width: 250px;
+    text-align: center;
     position: absolute;
     bottom: 35%;
     right: 60%;
     color: black;
     background-color: #fff;
+    visibility: hidden;
+}
+#ray:hover + .funfact1{
     visibility: visible;
 }
-
-.funfact2{                 /* Denne funfact boksen er plassert over trooper-3 */
-    margin: 0;
-    width: 250px;
+.funfact2{   
     position: absolute;
     text-align: center;
     top: 18%;
-    right: 1%;
+    right: 1%;              /* Denne funfact boksen er plassert over trooper-3 */
+    margin: 0;
+    width: 250px;
     color: yellow;
+    font-family: Legofont;
     background-color: black;
     opacity: 0;
-    animation: fact;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation: fadein 13s 1 forwards;
 }
 .funfact3{                 /* Denne funfact boksen er plassert over tusken */
     margin: 0;
     width: 250px;
     position: absolute;
+    border: 2px red solid;
     bottom: 35%;
     right: 25%;
+    text-align: center;
     color: black;
     background-color: #fff;
-    visibility: visible;
-    
+    visibility: hidden;   
+    font-family: Legofont;
+    font-weight: bold;
 }
-.funfact4{                 /* Denne funfact boksen er plassert over tusken */
-    margin: 0;
-    width: 250px;
-    position: absolute;
-    bottom: 60%;
-    right: 80%;
-    color: black;
-    background-color: #fff;
+#tusken:hover + .funfact3{
     visibility: visible;
 }
+#tusken:hover{
+    transform: scale(1.5);
+}
 
-
+#ray:hover{
+    transform: scale(1.5);
+}
 
 /* Hover-animations*/
 
@@ -238,7 +239,6 @@ body{
 }
 .lotr-button:hover{
     transform: scale(1);
-    cursor: url(/Images/lotr/sting-cursor.png),auto;
 }
 
 .mainpage-button:hover{
@@ -263,11 +263,12 @@ body{
 }
 @keyframes flight{                               /* Animation for the aircraft */
     0%{ transform: scale(1);}
-    35%{top: 6%;}
-    48%{transform: scale(1); top: 8%;}
+    20%{top: 20%;}
+    35%{top: 30%;}
+    48%{transform: scale(1); top: 30%;}
     50% {transform: scaleX(-1); width: 5%; left: 0%;}
     75%{top: 20%;}
-    98%{transform: scaleX(-1);}
+    98%{transform: scaleX(-1); top: 20%;}
     100%{transform: scale(1);}
 }
 @keyframes shooting{                         /* Animation for the lazer coming from trooper */
@@ -282,32 +283,10 @@ body{
     100%{opacity: 1;}
 }
 
-
 @keyframes popUp {
     0%{ bottom: -20%; opacity: 0;}
     75%{bottom: 0%; right: 50%; opacity: 0.5;}
     100%{bottom: -30%; opacity: 1;}
     
 }
-@keyframes pulse {
-    0%{
-        transform:scale(0.7);
-    }
-    70%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(0.7);
-    }
-}
 
-
-@keyframes fact{
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
-@keyframes buttons {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}

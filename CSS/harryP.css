@@ -50,7 +50,7 @@ body{
 /* Title */
 .logo{
     padding: 0;
-    height: 200px;
+    height: 140px;
     position: absolute;
     left: 30%;
     top: 0;
@@ -140,7 +140,9 @@ body{
 /* Characters+ Facts */
 .funfacts {
     color: black;
-    background-color: white;
+    border-radius: 5px;
+    border: 2.5px solid #530404;
+    background-color: #eee5c1;
     margin: 0;
     width: 250px;
     position: absolute;
@@ -231,8 +233,6 @@ body{
 .hagrid:hover + .hagrid-funfact {
     visibility: visible;
 }
-
-
 
 /*Keyframes*/
 

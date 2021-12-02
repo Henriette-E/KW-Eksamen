@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Legofont;
+    src: url(/Fonts/Legothick.ttf);
+}
 
 body {
     margin: 0;
@@ -10,7 +13,7 @@ body {
     cursor: url(../Images/lotr/sting-cursor.png), default;
 }
 
-/* Menu sidebar, LINEA: gjør hva du vil her */
+/* Menu sidebar LINEA: */
 
 .menu-bar {
     position: absolute;
@@ -26,10 +29,7 @@ body {
   
 .btn:hover {
     opacity: 1;
-}
-
-#lotr-btn {
-    visibility: hidden;
+    cursor: url(../Images/lotr/gandalf-cursor.png), pointer;
 }
   
 /* Intro */
@@ -158,7 +158,6 @@ body {
 
 .hobbit {
     position: absolute;
-    z-index: 1;
     animation: fadeIn 6s 1 ease-in-out;
 }
 
@@ -210,4 +209,54 @@ body {
     0% {opacity: 0;}
     97% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+/* LINEA: Funfact bokser */
+
+.funfact-text {
+    position: absolute;
+    border: aquamarine 2px solid ;
+    background-color: cadetblue;
+    border-radius: 25px;
+    height: 100px;
+    width: 250px;
+    visibility: hidden;
+    font-family: Legofont;
+    font-weight: bold;
+}
+
+#merry-funfact {
+    top: 20%;
+    right: 15%;
+}
+
+#merry:hover + #merry-funfact {
+    visibility: visible;
+}
+
+#pippin-funfact {
+    top: 40%;
+    right: 2%;
+}
+
+#pippin:hover + #pippin-funfact {
+    visibility: visible;
+}
+
+#sam-funfact {
+    top: 50%;
+    left: 35%;
+}
+
+#sam:hover + #sam-funfact {
+    visibility: visible;
+}
+/* Lego logo*/ 
+
+.logo{
+    padding: 0;
+    height: 15%;
+    position: absolute;
+    left: 33%;
+    top: 10;   
 }
