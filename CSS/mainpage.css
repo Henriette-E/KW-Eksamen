@@ -26,11 +26,11 @@ body {
     overflow: hidden;
     margin: 0;
     z-index: -2;
-    }
+}
     
 .fullLego {
     position: absolute;
-    color: rgba(#000000,.8);
+    color: #000000;
     right: 0;
     transform: translateX(47%);
 }
@@ -138,7 +138,7 @@ textarea:hover {
     top: 29vh;
     left: 12vw;
     position: absolute;
-    color: rgba(#000000,.8);
+    color: #000000;
     right: 0; 
 }
 
@@ -146,7 +146,7 @@ textarea:hover {
     left: 42vw;
     top: 10vh;
     position: absolute;
-    color: rgba(#000000,.8);
+    color: #000000;
     right: 0; 
 }
 
@@ -154,7 +154,7 @@ textarea:hover {
     left: 68vw;
     top: 23vh;
     position: absolute;
-    color: rgba(#000000,.8);
+    color: #000000;
     right: 0; 
 }
 
